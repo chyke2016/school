@@ -1,0 +1,140 @@
+<div class="v-nav-bar">
+    <span id="Btn_Back_Custom" class="Btn_Back_Custom v-btn-icon-text v-pull-left">
+        <span class="fa fa-chevron-left"></span>
+        Back
+    </span>
+    <span class="v-title">Transfer</span>
+</div>
+<div class="diamond-stripes"></div>
+
+<div class="v-page-content">
+    
+    <div class="From_Account Screen" style="display: block;">
+        <div class="v-loaderDynamic" ><span style="width: 23%;"></span></div>
+        <div class="v-list-title" >From Account:</div>
+        <ul class="v-list">
+            <!-- Accounts_List_Item.html -->
+        </ul>
+    </div>
+    
+<!--
+    <div class="To_Account Screen">
+        <div class="v-loaderDynamic" ><span style="width: 46%;"></span></div>
+        <div class="v-list-title" >To Account:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <input class="To_Account_Input v-list-item-el" type="tel" placeholder="Account Number" style="width: 100%;"/>
+            </li>
+        </ul>
+        <div style="margin: 0 12px"><button class="Btn_Continue_To_Acc v-btn-big">Continue</button></div>
+    </div>
+-->
+   
+   <div class="To_Account Screen">
+        <div class="v-loaderDynamic"><span style="width: 46%;"></span>
+        </div>
+        <div class="v-list-title">To Account:</div>
+        <ul class="v-list">
+            <li class="Add_Beneficiary v-list-item">
+                <span class="v-list-item-el-icon-bg">
+                    <span class="v-icon-bg">
+                        <span class="fa fa-user"></span>
+                </span>
+                </span>
+            <span class="v-list-item-el">Transfer to Beneficiary</span>
+                <span class="v-list-item-el v-list-item-arrow fa fa-chevron-right"></span>
+            </li>
+        </ul>
+        <div class="v-list-title" style="margin-top: 15px;">Or Select From Existing:</div>
+        <div class="v-search-wrapper fromBank">
+            <div class="v-search">
+                <input class="v-search-input" type="text" placeholder="Search" />
+            </div>
+        </div>
+        <ul class="Beneficiaries_List v-list">
+            <!-- Accounts_List_Item.html -->
+        </ul>
+
+    </div>
+
+    <div class="To_Beneficiary_Detail Screen">
+        <div class="v-loaderDynamic"><span style="width: 60%;"></span>
+        </div>
+        <div class="v-list-title">Beneficiary Details</div>
+
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <input class="Beneficiary_Account_Number v-list-item-el" type="tel" placeholder="Account Number" style="width: 100%; text-align: left;" />
+            </li>
+            <!--
+            <li class="v-list-item" style="color: #000000;">
+                <input class="Beneficiary_Account_Phone v-list-item-el" type="text" placeholder="Beneficiary Phone (optional)" style="width: 100%; text-align: left;" />
+            </li>
+            <li class="v-list-item" style="color: #000000;">
+                <input class="Beneficiary_Account_Mail v-list-item-el" type="text" placeholder="Beneficiary Mail (optional)" style="width: 100%; text-align: left;" />
+            </li>
+-->
+
+        </ul>
+        <ul class="v-list" style="padding: 0 12px;margin-top:15px">
+            <li class="v-list-item Save_Beneficiary_Switcher_View">
+                <span>Save Beneficiary</span>
+                <span class="Save_Beneficiary-switcher">
+                    <!-- Base_Switcher_View.html -->
+                </span>
+            </li>
+        </ul>
+
+        <div style="margin: 0 12px">
+            <button class="Btn_Beneficiary_Continue v-btn-big">Continue</button>
+        </div>
+    </div>
+    
+    <div class="Amount Screen">
+        <div class="v-loaderDynamic" ><span style="width: 80%;"></span></div>
+        <div class="v-list-title" >Amount:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <span class="CurrencyAlias v-list-item-el" style="width: 32px; font-size: 17px;">₦</span>
+                <input class="Amount_Input v-list-item-el" type="tel" style="width: 100%;"/>
+            </li>
+        </ul>
+        
+        <div class="v-list-title" >Pin:</div>
+        <ul class="v-list" style="padding: 0 12px; color: #9b9b9b;">
+            <li class="v-list-item">
+                <span class="fa fa-lock v-list-item-el" style="width: 32px; font-size: 27px;"></span>
+                <input class="PIN FinalPin v-list-item-el" type="tel" placeholder="Enter your PIN" style="width: 100%; -webkit-text-security: disc;"/>
+            </li>
+        </ul>
+        <div style="margin: 0 12px"><button class="Btn_Continue v-btn-big">Continue</button></div>
+    </div>
+    
+    <div class="Review Screen">
+        <div class="v-loaderDynamic" ><span style="width: 100%;"></span><span class="confirmLock"></span></div>
+        <div class="v-list-title">Review:</div>
+        
+        <div class="v-list-title" >From account:</div>
+        <ul class="From v-list" style="min-height: 45px;">
+            <!-- Accounts_List_Item.html -->
+        </ul>
+
+        <div class="v-list-title">To account:</div>
+        <ul class="To v-list" style="min-height: 45px;">
+            <!-- Accounts_List_Item.html -->
+        </ul>
+
+        <div class="v-list-title">Amount:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item">
+                <span class="CurrencyAlias v-list-item-el" style="width: 32px; font-size: 17px;">₦</span>
+                <input disabled class="v-list-item-el" type="tel" style="color: #000000; width: 100%;"/>
+            </li>
+        </ul>
+        <div style="margin: 0 12px"><button class="Btn_Confirm v-btn-big">Confirm</button></div>
+    </div>
+    
+</div>
+<div class="Transfer_loader v-loader" style="display: none;top: 64px;"><div class="v-spinner"></div></div>
+
+<div class="v-loader-invisible" style="display: none;top: 64px;"></div>

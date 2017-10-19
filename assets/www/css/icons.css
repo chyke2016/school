@@ -1,0 +1,91 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../font/diamond.eot?edgc53');
+	src:url('../font/diamond.eot?#iefixedgc53') format('embedded-opentype'),
+		url('../font/diamond.woff?edgc53') format('woff'),
+		url('../font/diamond.ttf?edgc53') format('truetype'),
+		url('../font/diamond.svg?edgc53#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-profile:before {
+	content: "\e60a";
+}
+.icon-cards:before {
+	content: "\e609";
+}
+.icon-logout:before {
+	content: "\e602";
+}
+.icon-life:before {
+	content: "\e613";
+}
+.icon-find-us:before {
+	content: "\e604";
+}
+.icon-notifications:before {
+	content: "\e605";
+}
+.icon-transfers:before {
+	content: "\e606";
+}
+.icon-airtime-payments:before {
+	content: "\e607";
+}
+.icon-accounts:before {
+	content: "\e608";
+}
+.icon-biller:before {
+	content: "\e610";
+}
+.icon-biller-2:before {
+	content: "\e60c";
+}
+.icon-biller-1002:before {
+	content: "\e60d";
+}
+.icon-biller-1000:before {
+	content: "\e60f";
+}
+.icon-biller-1001:before {
+	content: "\e60e";
+}
+.icon-biller-1005:before {
+	content: "\e617";
+}
+.icon-biller-1003:before {
+	content: "\e618";
+}
+.icon-biller-1007:before {
+	content: "\e600";
+}
+.icon-biller-1006:before {
+	content: "\e601";
+}
+.icon-toDiamond:before {
+	content: "\e60b";
+}
+.icon-yello:before {
+	content: "\e611";
+}
+.fa-clock-o:before {
+    content: "\f017";
+}
+.icon-share:before {
+	content: "\e612";
+}

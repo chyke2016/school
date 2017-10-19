@@ -1,0 +1,253 @@
+<div class="v-nav-bar">
+    <span class="Btn_Back_Smile v-btn-icon-text v-pull-left">
+        <span class="fa fa-chevron-left"></span> Back
+    </span>
+    <span class="v-title">Airtime & Payments</span>
+</div>
+<div class="diamond-stripes"></div>
+
+<div class="v-page-content">
+    <div class="ProductType Screen" style="display: block;">
+        <div class="v-loaderDynamic"><span style="width: 30%;"></span>
+        </div>
+
+        <div class="v-list-title">Product Type</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item active" style="color: #000000;" data-type="airtime">
+                <span class="v-list-item-el">Airtime</span>
+                <span class="v-list-item-el v-list-item-check fa fa-check"></span>
+            </li>
+            <li class="v-list-item" style="color: #000000;" data-type="bundle">
+                <span class="v-list-item-el">Bundle</span>
+                <span class="v-list-item-el v-list-item-check fa fa-check"></span>
+            </li>
+        </ul>
+
+        <div class="v-screen-btn-wrapper">
+            <button class="Btn_Continue v-btn-big">Continue</button>
+        </div>
+        
+    </div>
+
+    <div class="Products Screen">
+        <div class="v-loaderDynamic"><span style="width: 45%;"></span>
+        </div>
+
+        <!--        <div class="v-scrollable">-->
+        <div class="v-list-wrapper">
+            <div class="v-list-title">Select a product:</div>
+            <ul class="v-list">
+                <!-- Bills_Product.html -->
+            </ul>
+        </div>
+        <!--        </div>-->
+    </div>
+
+    <div class="Accounts Screen" style="display: none;">
+        <div class="v-loaderDynamic"><span style="width: 60%;"></span>
+        </div>
+
+        <div class="v-list-wrapper">
+            <div class="v-list-title">Select an account:</div>
+            <ul class="v-list">
+                <!-- Accounts_List_Item.html -->
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="Beneficiaries Screen" style="display: none;">
+        <div class="v-loaderDynamic"><span style="width: 80%;"></span>
+        </div>
+
+        <div style="z-index: 2; background-color: #f0f0f0; position: absolute;">
+            <div class="AccountsSegmentedControl v-segmented-control bright">
+                <span class="v-segmented-control-item bright active" data-screen="Direct">Direct</span>
+                <span class="v-segmented-control-item bright" data-screen="BeneficiaryScreen">Beneficiary</span>
+            </div>
+        </div>
+        <div class="v-list-wrapper">
+            <div class="v-sub-screen Direct" style="display: block;">
+                <div class="v-list-title">Please enter:</div>
+                <ul class="v-sub-list" style="padding: 0 12px;">
+                    <li class="v-sub-list-item" style="color: #000000;">
+                        <input class="ReferenceNumber v-list-item-el" id="refNumber" type="tel" placeholder="Account Details" style="width: 100%; border-bottom: none;" />
+                    </li>
+                </ul>
+                <ul class="v-sub-list" style="padding: 0 12px;margin-top:15px">
+                    <li class="v-sub-list-item Save_Beneficiary_Switcher_View">
+                        <span>Save Beneficiary</span>
+                        <span class="Save_Beneficiary-switcher" style="top: initial; margin-top: 4px;">
+                            <!-- Base_Switcher_View.html -->
+                        </span>
+                    </li>
+                    <li class="v-sub-list-item Save_Beneficiary_Wrapper" style="color: #000000; display: none;">
+                        <input class="ReferenceAlias v-list-item-el" type="text" placeholder="Beneficiary Alias" style="width: 100%; border-bottom: none;" />
+                    </li>
+                </ul>
+
+                <div class="v-screen-btn-wrapper">
+                    <button class="Btn_Continue v-btn-big">Continue</button>
+                </div>
+            </div>
+            <div class="v-sub-screen BeneficiaryScreen">
+                <div class="v-list-title">Select a beneficiary:</div>
+                <ul class="v-list">
+                    <!-- Beneficiaries_List_Item.html -->
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="Review Screen" style="display: none;">
+        <div class="v-loaderDynamic" ><span style="width: 100%;"></span><span class="confirmLock"></span></div>
+
+        <!--        <div class="v-scrollable" style="padding-top: 24px;">-->
+        <div class="v-list-title">From account:</div>
+        <ul class="From_Account v-list" style="min-height: 45px;">
+            <!-- Accounts_List_Item.html -->
+        </ul>
+
+        <div class="v-list-title">To biller:</div>
+        <ul class="v-list" style="padding: 0 12px; color: #9b9b9b;">
+            <li class="v-list-item">
+                <input disabled class="biller v-list-item-el" style="width: 100%; color: #000000;" />
+            </li>
+        </ul>
+
+        <div class="smileProduct">
+            <div class="v-list-title">Product:</div>
+            <ul class="v-list" style="padding: 0 12px; color: #9b9b9b;">
+                <li class="v-list-item">
+                    <input disabled class="product v-list-item-el" style="width: 100%; color: #000000;" />
+                </li>
+            </ul>
+        </div>
+
+        <div class="name">
+            <div class="v-list-title">Customer Name:</div>
+            <ul class="v-list" style="padding: 0 12px;">
+                <li class="v-list-item">
+                    <span class="customerName v-list-item-el" id="CustomerName" style="color: #000000; width: 100%;" /></span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="productQuantity">
+            <div class="v-list-title">Quantity</div>
+            <ul class="v-list" style="padding: 0 12px; color: #9b9b9b;">
+                <li class="v-list-item">
+                    <input class="quantity v-list-item-el" type="tel" placeholder="Quantity" style="width: 100%;" />
+                </li>
+            </ul>
+        </div>
+
+        <div class="v-list-title">Amount:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item">
+                <span class="CurrencyAlias v-list-item-el" style="width: 32px; font-size: 17px;">₦</span>
+                <input class="Amount v-list-item-el" type="tel" style="color: #000000; width: 100%;" />
+                <span class="FixedAmount v-list-item-el"></span>
+            </li>
+        </ul>
+
+        <div class="v-list-title chargeBiller">Biller Charge:</div>
+        <ul class="v-list chargeBiller" style="padding: 0 12px;">
+            <li class="v-list-item">
+                <span class="CurrencyAlias v-list-item-el" style="width: 32px; font-size: 17px;">₦</span>
+                <input class="BillerCharge v-list-item-el" disabled type="text" style="color: #000000; width: 100%;" />
+            </li>
+        </ul>
+
+        <div class="v-list-title">Pin:</div>
+        <ul class="v-list" style="padding: 0 12px; color: #9b9b9b;">
+            <li class="v-list-item">
+                <span class="fa fa-lock v-list-item-el" style="width: 32px; font-size: 27px;"></span>
+                <input class="PIN v-list-item-el" type="tel" placeholder="PIN" style="width: 100%; -webkit-text-security: disc;" />
+            </li>
+        </ul>
+
+        <div class="v-screen-btn-wrapper">
+            <button class="Btn_Confirm v-btn-big">Continue</button>
+        </div>
+        <!--        </div>-->
+    </div>
+
+    <div class="Confirm Screen" style="display: none;">
+        <div class="v-loaderDynamic"><span style="width: 100%;"></span><span class="confirmLock"></span>
+        </div>
+
+        <!--        <div class="v-scrollable" style="padding-top: 24px;">-->
+        <div class="v-list-title">From account:</div>
+        <ul class="From_Account v-list" style="min-height: 45px;">
+            <!-- Accounts_List_Item.html -->
+        </ul>
+
+        <div class="v-list-title">To biller:</div>
+        <ul class="v-list" style="padding: 0 12px; color: #9b9b9b;">
+            <li class="v-list-item">
+                <input disabled class="biller v-list-item-el" style="width: 100%; color: #000000;" />
+            </li>
+        </ul>
+
+        <div class="smileProduct">
+            <div class="v-list-title">Product:</div>
+            <ul class="v-list" style="padding: 0 12px; color: #9b9b9b;">
+                <li class="v-list-item">
+                    <input disabled class="product v-list-item-el" style="width: 100%; color: #000000;" />
+                </li>
+            </ul>
+        </div>
+        
+        <div class="name">
+            <div class="v-list-title">Customer Name:</div>
+            <ul class="v-list" style="padding: 0 12px;">
+                <li class="v-list-item">
+                    <span class="customerName v-list-item-el" id="CustomerName" style="color: #000000; width: 100%;" /></span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="productQuantity">
+            <div class="v-list-title">Quantity</div>
+            <ul class="v-list" style="padding: 0 12px; color: #9b9b9b;">
+                <li class="v-list-item">
+                    <input disabled class="quantity v-list-item-el" type="tel" placeholder="Quantity" style="width: 100%; color: #000000;" />
+                </li>
+            </ul>
+        </div>
+
+        <div class="v-list-title">Amount:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item">
+                <span class="CurrencyAlias v-list-item-el" style="width: 32px; font-size: 17px;">₦</span>
+                <input disabled class="Amount v-list-item-el" type="tel" style="color: #000000; width: 100%;" />
+                <span class="FixedAmount v-list-item-el"></span>
+            </li>
+        </ul>
+        
+        <div class="v-list-title chargeBiller">Biller Charge:</div>
+        <ul class="v-list chargeBiller" style="padding: 0 12px;">
+            <li class="v-list-item">
+                <span class="CurrencyAlias v-list-item-el" style="width: 32px; font-size: 17px;">₦</span>
+                <input class="BillerCharge v-list-item-el" disabled type="text" style="color: #000000; width: 100%;" />
+            </li>
+        </ul>
+
+        <div class="v-screen-btn-wrapper">
+            <button class="Btn_Confirm v-btn-big">Confirm</button>
+        </div>
+        <!--        </div>-->
+    </div>
+</div>
+
+<div class="v-content-loader v-loader" style="display: none;">
+    <div class="v-spinner"></div>
+</div>
+<div class="v-page-loader v-loader" style="display: none;">
+    <div class="v-spinner"></div>
+</div>
+<div class="v-loader-invisible" style="display: none;top: 64px;">
+
+</div>

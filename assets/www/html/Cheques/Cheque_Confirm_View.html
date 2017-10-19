@@ -1,0 +1,125 @@
+<div class="v-nav-bar">
+    <span class="Btn_Back_Custom v-btn-icon-text v-pull-left">
+        <span class="fa fa-chevron-left"></span>
+    Back
+    </span>
+    <span class="v-title">Confirm Cheque</span>
+</div>
+<div class="diamond-stripes"></div>
+
+<div class="v-screen-carousel-wrapper" style="display:none;">
+    <div class="v-screen-carousel v-carousel">
+        <div class="v-screen-carousel-item v-carousel-item active" data-screen="Accounts" data-index="0">Accounts</div>
+        <div class="v-screen-carousel-item v-carousel-item" data-screen="Data" data-index="1">Data</div>
+        <div class="v-screen-carousel-item v-carousel-item" data-screen="Review" data-index="3">Review</div>
+        <div class="v-screen-carousel-item v-carousel-item" data-screen="Confirm" data-index="4">Confirm</div>
+    </div>
+</div>
+
+<div class="Accounts v-screen" style="display: block;">
+    <div class="v-loaderDynamic"><span style="width: 30%;"></span>
+    </div>
+
+    <div class="v-scrollable">
+        <div class="v-list-wrapper">
+            <div class="v-list-title">Select an account:</div>
+            <ul class="v-list">
+                <!-- Accounts_List_Item.html -->
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="Data v-screen">
+    <div class="v-loaderDynamic"><span style="width: 60%;"></span>
+    </div>
+
+    <div class="v-scrollable" style="padding-top: 24px;">
+        <div class="v-list-title">Cheque Number:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <input class="Number v-list-item-el" type="text" placeholder="12345" style="width: 100%;" />
+            </li>
+        </ul>
+        <div class="v-list-title">Beneficiary name:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <input class="Name v-list-item-el" type="text" placeholder="Name" style="width: 100%; " />
+            </li>
+        </ul>
+        <div class="v-list-title">Amount:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <span class="CurrencyAlias v-list-item-el" style="width: 32px; font-size: 17px;">₦</span>
+                <input class="Amount v-list-item-el" type="tel" style="width: 100%;" />
+            </li>
+        </ul>
+        <div class="v-list-title">Date:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <span class="v-list-item-el" style="width: 100%; text-align: left;">
+                    <input class="Date" type="date"/>
+                </span>
+            </li>
+        </ul>
+        <div class="v-list-title">Pin:</div>
+        <ul class="v-list" style="padding: 0 12px; color: #9b9b9b;">
+            <li class="v-list-item">
+                <span class="fa fa-key v-list-item-el" style="width: 32px; font-size: 21px;"></span>
+                <input class="Token v-list-item-el" type="tel" placeholder="PIN" style="width: 100%; -webkit-text-security: disc;" />
+            </li>
+        </ul>
+        <div class="v-screen-btn-wrapper">
+            <button class="Btn_Continue v-btn-big">Continue</button>
+        </div>
+    </div>
+</div>
+
+<div class="Review v-screen">
+    <div class="v-loaderDynamic"><span style="width: 100%;"></span><span class="confirmLock"></span>
+    </div>
+
+    <div class="v-scrollable" style="padding-top: 24px;">
+        <div class="v-list-title">From account:</div>
+        <ul class="Account v-list" style="min-height: 45px;">
+            <!-- Accounts_List_Item.html -->
+        </ul>
+        <div class="v-list-title">Cheque Number:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <input disabled class="Number v-list-item-el" type="text" style="width: 100%; color: #000000;" />
+            </li>
+        </ul>
+        <div class="v-list-title">Beneficiary name:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <input disabled class="Name v-list-item-el" type="text" style="width: 100%; color: #000000;" />
+            </li>
+        </ul>
+        <div class="v-list-title">Amount:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <span class="CurrencyAlias v-list-item-el" style="width: 32px; font-size: 17px;">₦</span>
+                <input disabled class="Amount v-list-item-el" type="tel" style="width: 100%; color: #000000;" />
+            </li>
+        </ul>
+        <div class="v-list-title">Date:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <span class="v-list-item-el" style="width: 100%; text-align: left;">
+                    <input disabled class="Date" type="date" style="color: #000000;"/>
+                </span>
+            </li>
+        </ul>
+        
+        <div class="v-screen-btn-wrapper">
+            <button class="Btn_Continue_Review v-btn-big">Continue</button>
+        </div>
+    </div>
+</div>
+
+
+<div class="Cheque_Confirm-loader v-loader" style="display: none;">
+    <div class="v-spinner"></div>
+</div>
+<div class="v-loader-invisible" style="display: none;top: 64px;"></div>

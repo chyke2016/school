@@ -1,0 +1,27 @@
+<li class="v-list-item" data-model-id="<%- id %>" data-link="Movie_Details">
+    <span class="v-list-item-el-empty"></span>
+    <span class="v-list-item-el Movie_Info">
+        <img src="<%-poster %>">
+        <div>
+            <div style="font-weight: 400; font-size: 17px; width: 180px;">
+                <%- title %>
+            </div>
+            <span style="font-size: 14px; display: block; margin-top: 3px; font-weight: 300;">
+                <span class="v-icon-bg Movie_Rating">
+                    <span style="padding: 2px; font-weight: 300;">
+                        <%- rated[0] %>
+                    </span>
+                </span>
+                <%- duration %> min
+            </span>
+            <span style="position: absolute; bottom: 14px;">
+                <% for(var item in genre) { %>
+                    <span style="font-size:12px; margin-left: 3px; padding: 2px; border: 1px solid black; font-weight: 300;">
+                        <%- genre[item] %>
+                    </span>
+                    <% } %>
+            </span>
+        </div>
+    </span>
+    <span class="v-list-item-el v-list-item-arrow fa fa-chevron-right"></span>
+</li>

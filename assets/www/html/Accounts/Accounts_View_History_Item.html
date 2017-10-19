@@ -1,0 +1,5 @@
+<li class="v-list-item" data-model-id="<%- modelId %>" style="display: block;" >
+    <span class="Accounts_History_Item_accDate"><%- accDate %></span>
+    <span class="Accounts_History_Item_accAmount" <% if(transactionType == "D") { print("style='color:#e83e2a'"); }  %> ><%- currencyAlias %> <%- accAmount %></span>
+    <span class="Accounts_History_Item_accDes"><%- accDes %></span>
+</li>

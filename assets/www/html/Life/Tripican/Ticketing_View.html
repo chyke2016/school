@@ -1,0 +1,50 @@
+<div class="v-nav-bar">
+    <span class="Btn_Back v-btn-icon-text v-pull-left">
+        <span class="fa fa-chevron-left"></span>
+        Back
+    </span>
+    <span class="v-title">Movie Tickets</span>
+</div>
+<div class="diamond-stripes"></div>
+<div style="z-index: 2; background-color: #f0f0f0; position: absolute; top: 71px;">
+    <div class="AccountsSegmentedControl v-segmented-control bright">
+        <span class="v-segmented-control-item active" data-screen="Spotlight">Spotlight</span>
+        <span class="v-segmented-control-item" data-screen="Movies">Movies</span>
+    </div>
+</div>
+<div class="v-screen Spotlight" style="display: block; top:106px; padding:0;">
+    <div class="v-list-title">TOP BOX OFFICE</div>
+    <div class="v-scrollable noDrag" style="padding:0; top: 70px; height: 40%; position: initial; background: white; border-top: 1px solid #d2d2d3;">
+        <div class="Top_Box_Images">
+            <!-- Top_Box_Item.html -->
+        </div>
+    </div>
+    <ul class="v-list" style="border-top: none; padding-top: 12px;">
+        <li class="v-list-item" data-link="Showing_Today">
+            <span class="v-list-item-el-icon-bg">
+                <span class="v-icon-bg blue-icon">
+                    <span class="fa fa-calendar-o"></span>
+                </span>
+            </span>
+            <span class="v-list-item-el">Showing Today</span>
+            <span class="v-list-item-el v-list-item-arrow fa fa-chevron-right"></span>
+        </li>
+    </ul>
+</div>
+<div class="v-screen v-scrollable Movies" style="top:106px; padding:0;">
+    <ul class="v-list Movie_Items">
+        <!-- Movies_Item.html -->
+    </ul>
+</div>
+<div class="v-screen Cinemas" style="top:106px; padding:0;">
+    <ul class="v-list" style="padding: 4%;">
+        <li class="v-list-item">
+            <span class="v-list-item-el">
+                <div style="width: 100%; padding: 20px 0px; text-align: center;">Coming soon!</div>
+            </span>
+        </li>
+    </ul>
+</div>
+<div class="Top_Box_Office-loader v-loader" style="display: none;">
+    <div class="v-spinner"></div>
+</div>

@@ -1,0 +1,33 @@
+<li class="v-list-item" style="padding-top: 12px;">
+    <span class="v-list-item-el-empty"></span>
+    <span class="v-list-item-el Movie_Info">
+        <img src="<%- cinema.company.logo %>" style="height: initial; max-height: 40px; width: initial;">
+        <div>
+            <div style="font-weight: 400; font-size: 17px; width: 220px;">
+                <%- cinema.centre_name %>
+            </div>
+        </div>
+            
+        <% var show_type = [];
+           for(var itemMovie in movie_showtimes[0].showtimes) { 
+           if(show_type.indexOf(movie_showtimes[0].showtimes[itemMovie].showtime_type) < 0 ) {
+                show_type.push(movie_showtimes[0].showtimes[itemMovie].showtime_type);
+           }
+        } %>
+            
+        <% for(var i in show_type) {%>
+           <div style="width: 100%; font-weight: 300; padding-top: 12px;"><%- show_type[i] %></div>
+            <div style="width: 100%; font-weight: 300; padding-top: 12px; min-height: 50px;">
+                <% for(var item in movie_showtimes[0].showtimes) { %>
+                    <% if (movie_showtimes[0].showtimes[item].showtime_type=== show_type[i] ) { %>
+                        <div class="Showtimes" id="<%- movie_showtimes[0].showtimes[item].id %>">
+                            <%- new Date(movie_showtimes[0].showtimes[item].time_iso).format( "hh:MM TT") %>
+                        </div>
+                        <% } %>
+                            <% } %>
+            </div>
+        <% } %> 
+            
+            
+    </span>
+</li>

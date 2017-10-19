@@ -1,0 +1,117 @@
+<div class="v-loaderDynamic" style="position: absolute;top:64px;"><span style="width: 70%;">Passengers</span></div>
+
+<div class="Passenger<%- number %> v-screen" data-passenger="<%- number %>">
+    <div class="v-scrollable" style="padding-top: 24px;">
+
+        <ul class="v-list" style="margin-bottom: 0;">
+            <% if (type === 'Adult') { %>
+            <li class="v-list-item">
+                <span class="v-list-item-el-icon" style="font-size: 34px;">
+                    <span class="fa fa-male"></span>
+                </span>
+                <span class="v-list-item-el">
+                    <span style="display: block; padding: 12px 9px 3px 0; font-weight: bold; font-size: 17px;">Adult</span>
+                    <span style="color: #828282; display: block; padding: 0 9px 12px 0; font-size: 14px;">over 12 years</span>
+                </span>
+            </li>
+            <% } %>
+            <% if (type === 'Child') { %>
+            <li class="v-list-item">
+                <span class="v-list-item-el-icon" style="font-size: 26px;">
+                    <span class="fa fa-male" style="position: relative; left: 3px;"></span>
+                </span>
+                <span class="v-list-item-el">
+                    <span style="display: block; padding: 12px 9px 3px 0; font-weight: bold; font-size: 17px;">Child</span>
+                    <span style="color: #828282; display: block; padding: 0 9px 12px 0; font-size: 14px;">under 12 years</span>
+                </span>
+            </li>
+            <% } %>
+            <% if (type === 'Infant') { %>
+            <li class="v-list-item" style="font-size: 18px;">
+                <span class="v-list-item-el-icon">
+                    <span class="fa fa-child" style="position: relative; left: 3px;"></span>
+                </span>
+                <span class="v-list-item-el">
+                    <span style="display: block; padding: 12px 9px 3px 0; font-weight: bold; font-size: 17px;">Infant</span>
+                    <span style="color: #828282; display: block; padding: 0 9px 12px 0; font-size: 14px;">under 2 years</span>
+                </span>
+            </li>
+            <% } %>
+        </ul>
+
+        <div class="v-list-wrapper">
+            <div class="v-list-title">Title:</div>
+            <ul class="Title v-list">
+               <% if (type === 'Adult') { %>
+                <li class="v-list-item active" data-type="Mr.">
+                    <span class="v-list-item-el">Mr.</span>
+                    <span class="v-list-item-el v-list-item-check fa fa-check"></span>
+                </li>
+                <% } %>
+                <li class="v-list-item" data-type="Master">
+                    <span class="v-list-item-el">Master</span>
+                    <span class="v-list-item-el v-list-item-check fa fa-check"></span>
+                </li>
+                <% if (type === 'Adult') { %>
+                <li class="v-list-item" data-type="Mrs.">
+                    <span class="v-list-item-el">Mrs.</span>
+                    <span class="v-list-item-el v-list-item-check fa fa-check"></span>
+                </li>
+                <% } %>
+                <li class="v-list-item" data-type="Miss">
+                    <span class="v-list-item-el">Miss</span>
+                    <span class="v-list-item-el v-list-item-check fa fa-check"></span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="v-list-title">First name:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <input class="FirstName v-list-item-el" type="text" data-property="firstName" style="width: 100%;" placeholder="First Name"/>
+            </li>
+        </ul>
+
+        <div class="v-list-title">Last name:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <input class="FirstName v-list-item-el" type="text" data-property="lastName" style="width: 100%;" placeholder="Last Name"/>
+            </li>
+        </ul>
+
+        <div class="v-list-title">Birth date:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <span class="v-list-item-el" style="width: 100%;">
+                    <input class="BirthDate" type="date" data-property="birthDate" max="2015-06-18" style="width: 100%;"/>
+                </span>
+            </li>
+        </ul>
+        
+        <div class="PassportWrapper">
+        <div class="v-list-title">Passport details:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <span class="v-list-item-el" style="width: 100%;">
+                    <input class="PassportNo" type="text" data-property="passportNo" style="width: 100%;" placeholder="Passport No."/>
+                </span>
+            </li>
+            <li class="v-list-item" style="color: #000000;">
+                <span class="v-list-item-el" style="width: 100%;">
+                    <input class="PassportIssAuth" type="text" data-property="passportIssAuthority" style="width: 100%;" placeholder="Passport Issuing Authority"/>
+                </span>
+            </li>
+            </ul>
+            <div class="v-list-title">Passport valid up to:</div>
+            <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <span class="v-list-item-el" style="width: 100%;">
+                    <input class="PassportValidUpTo" type="date" data-property="passportValidUpTo" style="width: 100%;"/>
+                </span>
+            </li>
+        </ul>
+        </div>
+        
+        <div class="v-screen-btn-wrapper"><button class="Btn_Continue_Passenger v-btn-big">Continue</button></div>
+    </div>
+</div>

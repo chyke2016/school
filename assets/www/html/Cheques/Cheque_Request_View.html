@@ -1,0 +1,88 @@
+<div class="v-nav-bar">
+    <span class="Btn_Back_Custom v-btn-icon-text v-pull-left">
+        <span class="fa fa-chevron-left"></span> Back
+    </span>
+    <span class="v-title">Cheque Book Request</span>
+</div>
+<div class="diamond-stripes"></div>
+
+<div class="Accounts v-screen" style="display: block;">
+    <div class="v-loaderDynamic"><span style="width: 30%;"></span>
+    </div>
+
+    <div class="v-scrollable">
+        <div class="v-list-wrapper">
+            <div class="v-list-title">Select an account:</div>
+            <ul class="v-list">
+                <!-- Accounts_List_Item.html -->
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="Leaves v-screen">
+    <div class="v-loaderDynamic"><span style="width: 50%;"></span>
+    </div>
+
+    <div class="v-scrollable" style="padding-top: 24px;">
+        <div class="v-list-title">Leaves:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;padding: 5px;">
+                <select class="LeavesList v-list-select">
+                    <option value="25">25 Leaves</option>
+                    <option value="50">50 Leaves</option>
+                    <option value="100">100 Leaves</option>
+                </select>
+            </li>
+        </ul>
+        <div class="v-list-title">Collection Branch:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <input class="CollectionBranch_Val v-list-item-el" type="text" placeholder="Collection Branch" style="width: 100%;" />
+            </li>
+        </ul>
+        <div class="v-list-title">PIN:</div>
+        <ul class="v-list" style="padding: 0 12px; color: #9b9b9b;">
+            <li class="v-list-item">
+                <span class="fa fa-key v-list-item-el" style="width: 32px; font-size: 21px;"></span>
+                <input class="PIN v-list-item-el" type="tel" placeholder="PIN" style="width: 100%; -webkit-text-security: disc;" />
+            </li>
+        </ul>
+
+        <div class="v-screen-btn-wrapper">
+            <button class="Btn_Continue v-btn-big">Continue</button>
+        </div>
+    </div>
+</div>
+
+<div class="Confirm v-screen">
+    <div class="v-loaderDynamic"><span style="width: 100%;"></span><span class="confirmLock"></span>
+    </div>
+
+    <div class="v-scrollable" style="padding-top: 24px;">
+        <div class="v-list-title">From account:</div>
+        <ul class="Account v-list" style="min-height: 45px;">
+            <!-- Accounts_List_Item.html -->
+        </ul>
+        <div class="v-list-title">Leaves:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <input disabled class="Leaves_Val v-list-item-el" type="text" style="width: 100%; color: #000000;" />
+            </li>
+        </ul>
+        <div class="v-list-title">Collection Branch:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <input disabled class="CollectionBranch_Val v-list-item-el" type="text" style="width: 100%; color: #000000;" />
+            </li>
+        </ul>
+        <div class="v-screen-btn-wrapper">
+            <button class="Btn_Continue v-btn-big">Confirm</button>
+        </div>
+    </div>
+</div>
+
+<div class="v-loader" style="display: none;top : 64px;">
+    <div class="v-spinner"></div>
+</div>
+<div class="v-loader-invisible" style="display: none;top: 64px;"></div>

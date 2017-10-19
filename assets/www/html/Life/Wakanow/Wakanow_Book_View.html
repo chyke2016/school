@@ -1,0 +1,194 @@
+<div class="v-nav-bar">
+    <span class="Btn_Back_Custom v-btn-icon-text v-pull-left">
+        <span class="fa fa-chevron-left"></span>
+    Back
+    </span>
+    <span class="Btn_Back v-btn-icon-text v-pull-right">
+        Cancel
+    </span>
+    <span class="v-title">Flight Booking</span>
+</div>
+<div class="diamond-stripes"></div>
+
+<div class="v-screen-carousel-wrapper" style="display:none;">
+    <div class="v-screen-carousel v-carousel">
+        <div class="v-screen-carousel-item v-carousel-item active" data-screen="Flight" data-index="0">Flight</div>
+        <div class="v-screen-carousel-item v-carousel-item" data-screen="Customer" data-index="1">Customer</div>
+        <div class="v-screen-carousel-item v-carousel-item" data-screen="Contact" data-index="2">Contact</div>
+        <div class="v-screen-carousel-item v-carousel-item" data-screen="Address" data-index="3">Address</div>
+        <!-- Passengers -->
+        <div class="v-screen-carousel-item v-carousel-item" data-screen="Accounts" data-index="4">Payment</div>
+        <div class="v-screen-carousel-item v-carousel-item" data-screen="Security" data-index="5">Security</div>
+        <div class="v-screen-carousel-item v-carousel-item" data-screen="Confirm" data-index="6">Confirm</div>
+    </div>
+</div>
+
+<div class="Flight v-screen" style="display: block;">
+    <!-- Wakanow_Book_View_Flight.html -->
+</div>
+
+<div class="Customer v-screen">
+    <div class="v-loaderDynamic"><span style="width: 40%;">Customer</span>
+    </div>
+    <div class="v-scrollable">
+        <div class="v-list-wrapper">
+            <div class="v-list-title">Title:</div>
+            <ul class="Title v-list">
+                <li class="v-list-item active" data-type="Mr.">
+                    <span class="v-list-item-el">Mr.</span>
+                    <span class="v-list-item-el v-list-item-check fa fa-check"></span>
+                </li>
+                <li class="v-list-item" data-type="Master">
+                    <span class="v-list-item-el">Master</span>
+                    <span class="v-list-item-el v-list-item-check fa fa-check"></span>
+                </li>
+                <li class="v-list-item" data-type="Mrs.">
+                    <span class="v-list-item-el">Mrs.</span>
+                    <span class="v-list-item-el v-list-item-check fa fa-check"></span>
+                </li>
+                <li class="v-list-item" data-type="Miss">
+                    <span class="v-list-item-el">Miss</span>
+                    <span class="v-list-item-el v-list-item-check fa fa-check"></span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="v-list-title">First name:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <input class="v-list-item-el" type="text" data-property="firstName" style="width: 100%;" placeholder="First Name" />
+            </li>
+        </ul>
+
+        <div class="v-list-title">Last name:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <input class="v-list-item-el" type="text" data-property="lastName" style="width: 100%;" placeholder="Last Name" />
+            </li>
+        </ul>
+
+        <div class="v-list-title">Birth date:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <span class="v-list-item-el" style="width: 100%;">
+                    <input class="birthDate" type="date" data-property="birthDate" style="width: 100%;"/>
+                </span>
+            </li>
+        </ul>
+
+        <div class="v-screen-btn-wrapper">
+            <button class="Btn_Continue v-btn-big">Continue</button>
+        </div>
+    </div>
+</div>
+
+<div class="Contact v-screen">
+    <div class="v-loaderDynamic"><span style="width: 50%;">Contact</span>
+    </div>
+    <div class="v-scrollable" style="padding-top: 24px;">
+        <div class="v-list-title">Please enter:</div>
+
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <input class="v-list-item-el" type="tel" data-property="number" style="width: 100%;" placeholder="Mobile number" />
+            </li>
+
+            <li class="v-list-item" style="color: #000000;">
+                <input class="v-list-item-el" type="tel" data-property="numberAlt" style="width: 100%;" placeholder="Alternative number (optional)" />
+            </li>
+
+            <li class="v-list-item" style="color: #000000;">
+                <input class="v-list-item-el" type="email" data-property="email" style="width: 100%;" placeholder="Email" />
+            </li>
+
+            <li class="v-list-item" style="color: #000000;">
+                <input class="v-list-item-el" type="email" data-property="emailConfirm" style="width: 100%;" placeholder="Confirm email" />
+            </li>
+        </ul>
+
+        <div class="v-screen-btn-wrapper">
+            <button class="Btn_Continue v-btn-big">Continue</button>
+        </div>
+    </div>
+</div>
+
+<div class="Address v-screen">
+    <div class="v-loaderDynamic"><span style="width: 60%;">Address</span>
+    </div>
+    <div class="v-scrollable" style="padding-top: 24px;">
+        <div class="v-list-title">Please enter:</div>
+
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <input class="v-list-item-el" type="text" data-property="address1" style="width: 100%;" placeholder="Address" />
+            </li>
+
+            <li class="v-list-item" style="color: #000000;">
+                <input class="v-list-item-el" type="text" data-property="address2" style="width: 100%;" placeholder="Address 2 (optional)" />
+            </li>
+
+            <li class="v-list-item" style="color: #000000;">
+                <input class="v-list-item-el" type="text" style="width: 100%;" data-property="city" placeholder="City" />
+            </li>
+
+            <li class="v-list-item" style="color: #000000;">
+                <span class="v-list-item-el" style="width: 100%;">
+                    <select class="myDataCountry v-list-select" style="width: 100%;">
+                        <option data-country="">Country</option>
+                        <% for (var i = 0; i < countries.length; i++) { %>
+                        <option data-country-id="<%- countries[i].id %>" data-country-name="<%- countries[i].name %>"><%- countries[i].name %></option>
+                        <% } %>
+                    </select>
+                </span>
+            </li>
+        </ul>
+
+        <div class="v-screen-btn-wrapper">
+            <button class="Btn_Continue v-btn-big">Continue</button>
+        </div>
+    </div>
+</div>
+
+<div class="Passengers" style="display:none !important;">
+
+</div>
+
+<div class="Accounts v-screen">
+    <div class="v-loaderDynamic"><span style="width: 80%;">Payment</span>
+    </div>
+    <div class="v-scrollable">
+        <div class="v-list-wrapper">
+            <div class="v-list-title">Select an account:</div>
+            <ul class="v-list">
+                <!-- Accounts_List_Item.html -->
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="Security v-screen">
+    <div class="v-loaderDynamic"><span style="width: 90%;">Security</span>
+    </div>
+
+    <div class="v-scrollable" style="padding-top: 24px;">
+        <div class="v-list-title">Please enter:</div>
+        <ul class="v-list" style="padding: 0 12px; color: #9b9b9b;">
+            <li class="v-list-item">
+                <span class="fa fa-key v-list-item-el" style="width: 32px; font-size: 21px;"></span>
+                <input class="v-list-item-el" type="tel" data-property="pin" placeholder="PIN" style="width: 100%;  -webkit-text-security: disc;" />
+            </li>
+        </ul>
+        <div class="v-screen-btn-wrapper">
+            <button class="Btn_Continue v-btn-big">Continue</button>
+        </div>
+    </div>
+</div>
+
+<div class="Confirm v-screen">
+    <!-- Wakanow_Book_View_Flight.html -->
+</div>
+
+<div class="v-loader" style="display: none;">
+    <div class="v-spinner"></div>
+</div>
+<div class="v-loader-invisible" style="display: none;top: 64px;"></div>

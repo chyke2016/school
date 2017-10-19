@@ -1,0 +1,80 @@
+<div class="v-nav-bar">
+    <span class="Btn_Menu flaticon1-home54 v-btn-icon v-pull-left hidden"></span> 
+    <span class="Btn_Back_Custom v-btn-icon-text v-pull-left">
+        <span class="fa fa-chevron-left"></span>
+    Back
+    </span>
+    <span class="v-title">Changed Device</span>
+</div>
+<div class="diamond-stripes"></div>
+
+<div class="Main v-screen" style="display:block;">
+
+    <div class="v-scrollable">
+        
+        <div class="v-list-title">Re-Register:</div>
+        <ul class="v-list">
+            <li class="v-list-item Btn_Re_Register">
+                <span class="v-list-item-el" style="height: auto; padding: 10px 0;">Register on a new device<span style="display: block; font-size: 12px; color: #777; margin-top: 5px;">Please register here.</span></span>
+                <span class="v-list-item-el v-list-item-arrow fa fa-chevron-right"></span>
+            </li>
+        </ul>
+
+    </div>
+</div>
+
+<div class="Re_Register_1 v-screen">
+
+    <div class="v-loaderDynamic"><span style="width: 70%;">1 : Enter Details</span>
+    </div>
+
+    <div class="v-scrollable" style="padding-top: 24px;">
+        <div class="v-list-title" style="margin-top: 20px;">Internet Banking ID:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <input class="InternetBankingID v-list-item-el" type="text" placeholder="Internet Banking ID" style="width: 100%;" />
+            </li>
+        </ul>
+        <div class="v-list-title">Password:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <input class="Password v-list-item-el" type="password" placeholder="Password" style="width: 100%;" />
+            </li>
+        </ul>
+        <div class="v-list-title">PIN:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <input class="PIN v-list-item-el" type="tel" placeholder="PIN" maxlength="4" style="width: 100%;  -webkit-text-security: disc;" />
+            </li>
+        </ul>
+        <div class="v-screen-btn-wrapper">
+            <button class="Btn_Submit_Re_Register_1 v-btn-big">Submit</button>
+        </div>
+        <p style="margin-top: 10px;font-size: 14px; font-weight: bold;">If you continue with this, your existing profile will be deleted from the other device.</p>
+    </div>
+</div>
+
+<div class="Re_Register_2 v-screen">
+
+    <div class="v-loaderDynamic"><span style="width: 100%;">2 : SMS Validation Code</span><span class="confirmLock"></span>
+    </div>
+
+    <div class="v-scrollable" style="padding-top: 24px;">
+        <div class="v-list-title" style="margin-top: 20px;">SMS Validation Code:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <input class="ValidationCode v-list-item-el password" type="tel" placeholder="Enter Code" style="width: 100%;" />
+            </li>
+        </ul>
+        <div class="v-screen-btn-wrapper">
+            <button class="Btn_Submit_Re_Register_2 v-btn-big">Submit</button>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="Register_Loader v-loader" style="display: none;">
+    <div class="v-spinner"></div>
+</div>
+<div class="v-loader-invisible" style="display: none;top: 64px;"></div>

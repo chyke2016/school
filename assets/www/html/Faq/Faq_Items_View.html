@@ -1,0 +1,20 @@
+<div class="category v-list" style="border-top: 0;">
+
+    <!-- <div class="categoryName">
+        <%- categoryName %>
+    </div> -->
+
+    <div class="categoryItems">
+        <% _.each(QNAList, function(list){ %>
+            <ul class="v-list v-text">
+                <li class="v-list-item q">
+                    <%- list.question %>
+                </li>
+                <li class="v-list-item a">
+                    <%- list.answers %>
+                </li>
+            </ul>
+            <% }); %>
+    </div>
+
+</div>

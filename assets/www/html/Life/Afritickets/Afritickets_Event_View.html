@@ -1,0 +1,113 @@
+<div class="v-nav-bar">
+    <span class="Btn_Back_Custom v-btn-icon-text v-pull-left">
+        <span class="fa fa-chevron-left"></span>
+    Back
+    </span>
+    <span class="v-title">Event</span>
+</div>
+<div class="diamond-stripes"></div>
+
+<div style="position: absolute; top: 71px; left: 0; z-index: 2; background-color: #f0f0f0;">
+    <div class="AccountsSegmentedControl v-segmented-control">
+        <span class="v-segmented-control-item active" data-screen="Info">Info</span>
+        <span class="v-segmented-control-item" data-screen="Purchase">Purchase</span>
+    </div>
+</div>
+
+<div class="Info v-event-screen v-page-content" style="top: 106px;">
+    <!-- Afritickets_Event_View_Info.html -->
+</div>
+
+<div class="Purchase v-event-screen" style="display: none;">
+    <div class="v-screen-carousel-wrapper" style="top: 113px; border: 0px;">
+        <div class="v-screen-carousel v-carousel" style="display: none;">
+            <div class="v-screen-carousel-item v-carousel-item active" data-screen="AfriticketsTicketCategories" data-index="0">Ticket Categories</div>
+            <div class="v-screen-carousel-item v-carousel-item" data-screen="Account" data-index="1">Account</div>
+            <div class="v-screen-carousel-item v-carousel-item" data-screen="Review" data-index="3">Review</div>
+            <div class="v-screen-carousel-item v-carousel-item" data-screen="Confirm" data-index="4">Confirm</div>
+        </div>
+    </div>
+
+    <div class="AfriticketsTicketCategories v-screen v-page-content" style="top: 113px; display: block;">
+        <div class="v-loaderDynamic"><span style="width: 40%;"></span>
+        </div>
+
+        <ul class="v-list" style="margin-top: 10px;">
+            <!-- Afritickets_Categories_List_Item.html -->
+        </ul>
+    </div>
+
+    <div class="Account v-screen" style="top: 113px ;">
+        <div class="v-loaderDynamic"><span style="width: 60%;"></span>
+        </div>
+
+        <div class="v-scrollable">
+            <div class="v-list-wrapper">
+                <div class="v-list-title">Select an account:</div>
+                <ul class="v-list">
+                    <!-- Accounts_List_Item.html -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="Review v-screen" style="top: 113px ;">
+        <div class="v-loaderDynamic"><span style="width: 75%;"></span>
+        </div>
+
+        <div class="v-scrollable">
+            <div class="v-list-title">Account:</div>
+            <ul class="Account v-list" style="min-height: 45px;">
+                <!-- Accounts_List_Item.html -->
+            </ul>
+
+            <div class="v-list-title">Event:</div>
+            <ul class="Event v-list" style="min-height: 45px;">
+                <!-- Afritickets_List_Item.html -->
+            </ul>
+
+            <div class="v-list-title">Category:</div>
+            <ul class="Category v-list" style="min-height: 45px;">
+                <!-- Afritickets_Categories_List_Item.html -->
+            </ul>
+            <div class="v-screen-btn-wrapper">
+                <button class="Btn_Continue v-btn-big">Continue</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="Confirm v-screen" style="top: 113px ;">
+        <div class="v-loaderDynamic"><span style="width: 100%;"></span><span class="confirmLock"></span>
+        </div>
+
+        <div class="v-scrollable">
+            <div class="v-list-title">Please enter:</div>
+            <ul class="v-list" style="padding: 0 12px; color: #9b9b9b;">
+                <li class="v-list-item">
+                    <span class="fa fa-key v-list-item-el" style="width: 32px; font-size: 21px;"></span>
+                    <input class="v-list-item-el" type="password" data-property="pin" placeholder="PIN" style="width: 100%;" />
+                </li>
+            </ul>
+            <ul class="v-list" style="padding: 0 12px; color: #9b9b9b;">
+                <li class="v-list-item">
+                    <span class="fa fa-key v-list-item-el" style="width: 32px; font-size: 21px;"></span>
+                    <input class="v-list-item-el" type="email" data-property="email" placeholder="Email" style="width: 100%;" />
+                </li>
+            </ul>
+            <ul class="v-list" style="padding: 0 12px; color: #9b9b9b;">
+                <li class="v-list-item">
+                    <span class="fa fa-comment-o v-list-item-el" style="width: 32px; font-size: 20px;"></span>
+                    <input class="v-list-item-el" type="text" data-property="remarks" placeholder="Remarks (optional)" style="width: 100%;" />
+                </li>
+            </ul>
+            <div class="v-screen-btn-wrapper">
+                <button class="Btn_Purchase v-btn-big">Purchase</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="v-loader" style="display: none;">
+        <div class="v-spinner"></div>
+    </div>
+</div>
+

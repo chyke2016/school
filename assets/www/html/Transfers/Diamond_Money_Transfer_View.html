@@ -1,0 +1,149 @@
+<div class="v-nav-bar">
+    <span id="Btn_Back_Custom" class="Btn_Back_Custom v-btn-icon-text v-pull-left">
+        <span class="fa fa-chevron-left"></span>
+    Back
+    </span>
+    <span class="v-title">Transfer</span>
+</div>
+<div class="diamond-stripes"></div>
+
+<div class="v-page-content">
+    <div class="From_Account Screen" style="display: block;">
+        <div class="v-loaderDynamic"><span style="width: 23%;"></span>
+        </div>
+        <div class="v-list-title">From Account:</div>
+        <ul class="v-list">
+            <!-- Accounts_List_Item.html -->
+        </ul>
+    </div>
+    <div class="Details Screen">
+        <div class="v-loaderDynamic"><span style="width: 46%;"></span>
+        </div>
+        <div class="v-list-title">Amount:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <span class="CurrencyAlias v-list-item-el" style="width: 32px; font-size: 17px;">₦</span>
+                <input class="Amount_Input v-list-item-el" type="tel" style="width: 100%;" />
+            </li>
+        </ul>
+        <div class="v-list-title">Remark:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <input class="Remark_Input v-list-item-el" type="text" placeholder="Enter Remark" style="width: 100%" />
+            </li>
+        </ul>
+        <div class="v-list-title">Pin:</div>
+        <ul class="v-list" style="padding: 0 12px; color: #9b9b9b;">
+            <li class="v-list-item">
+                <span class="fa fa-lock v-list-item-el" style="width: 32px; font-size: 27px;"></span>
+                <input class="Pin_Input v-list-item-el" type="tel" placeholder="Enter your PIN" style="width: 100%; -webkit-text-security: disc;" />
+            </li>
+        </ul>
+        <div style="margin: 0 12px">
+            <button class="Btn_Continue v-btn-big">Continue</button>
+        </div>
+    </div>
+    <div class="Identification Screen">
+        <div class="v-loaderDynamic"><span style="width: 69%;"></span>
+        </div>
+        <div class="v-list-title">ID Type</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;padding: 5px;">
+                <select class="IdType_Select v-list-select">
+                    <option value="National ID Card">National ID Card</option>
+                    <option value="International Passport">International Passport</option>
+                    <option value="Drivers License">Drivers License</option>
+                    <option value="Others">Others</option>
+                </select>
+            </li>
+        </ul>
+        <div class="v-list-title">Details</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <input class="Name_Input v-list-item-el" type="text" placeholder="Name" style="width: 100%" />
+            </li>
+            <li class="v-list-item" style="color: #000000;">
+                <input class="IdNumber_Input v-list-item-el" type="text" placeholder="ID Number" style="width: 100%" />
+            </li>
+            <li class="v-list-item" style="color: #000000;">
+                <input class="Mobile_Input v-list-item-el" type="tel" placeholder="Mobile" style="width: 100%" />
+            </li>
+            <li class="v-list-item" style="color: #000000;">
+                <input class="Address_Input v-list-item-el" type="text" placeholder="Address" style="width: 100%" />
+            </li>
+        </ul>
+        <div style="margin: 0 12px">
+            <button class="Btn_Id_Continue v-btn-big">Continue</button>
+        </div>
+    </div>
+    <div class="Review Screen">
+        <div class="v-loaderDynamic"><span style="width: 100%;"></span><span class="confirmLock"></span>
+        </div>
+
+        <div class="v-list-title">From account:</div>
+        <ul class="From v-list" style="min-height: 45px;">
+            <!-- Accounts_List_Item.html -->
+        </ul>
+
+        <div class="v-list-title">Amount:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item">
+                <span class="CurrencyAlias v-list-item-el" style="width: 32px; font-size: 17px;">₦</span>
+                <input disabled class="Amount v-list-item-el" type="tel" style="color: #000000; width: 100%;" />
+            </li>
+        </ul>
+
+        <div class="v-list-title">Remark:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item">
+                <input disabled class="Remark v-list-item-el" type="text" style="color: #000000; width: 100%;" />
+            </li>
+        </ul>
+
+        <div class="v-list-title">ID Type:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item">
+                <input disabled class="IdType v-list-item-el" type="text" style="color: #000000; width: 100%;" />
+            </li>
+        </ul>
+
+        <div class="v-list-title">Name:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item">
+                <input disabled class="Name v-list-item-el" type="text" style="color: #000000; width: 100%;" />
+            </li>
+        </ul>
+
+        <div class="v-list-title">ID Number:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item">
+                <input disabled class="IdNumber v-list-item-el" type="text" style="color: #000000; width: 100%;" />
+            </li>
+        </ul>
+
+        <div class="v-list-title">Mobile:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item">
+                <input disabled class="Mobile v-list-item-el" type="text" style="color: #000000; width: 100%;" />
+            </li>
+        </ul>
+
+        <div class="v-list-title">Address:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item">
+                <input disabled class="Address v-list-item-el" type="text" style="color: #000000; width: 100%;" />
+            </li>
+        </ul>
+        
+        <div style="margin: 0 12px">
+            <button class="Btn_Confirm v-btn-big">Confirm</button>
+        </div>
+    </div>
+    
+</div>
+<div class="Diamond_Money_Transfer-loader v-loader" style="display: none;top: 64px;">
+    <div class="v-spinner"></div>
+</div>
+<div class="v-loader-invisible" style="display: none;top: 64px;">
+    
+</div>

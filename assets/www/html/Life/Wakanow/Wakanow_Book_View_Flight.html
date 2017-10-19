@@ -1,0 +1,96 @@
+<div class="v-loaderDynamic"><span style="width: 30%;">Flight</span></div>
+<div class="v-scrollable">
+    <div class="Outbound v-list-wrapper">
+        <div class="v-list-title">Outbound:</div>
+        <ul class="v-list" style="margin: 0;">
+            <% for (var i = 0; i < outbound.flights.length; i++) { %>
+            <li class="v-list-item">
+                <div class="v-list-item-el">
+                    <div class="Accounts_List_Item_Heading">
+                        <span class="Accounts_List_Item_AccountType">
+                            <span class="Accounts_List_Item_AccountType_Inner"><%- outbound.flights[i].fromAirport.code %> - <%- outbound.flights[i].fromCity.value %></span>
+                        </span>
+                        <span class="Accounts_List_Item_AvailableBalance" style="font-weight: bold;"><%- outbound.flights[i].toAirport.code %> - <%- outbound.flights[i].toCity.value %></span>
+                    </div>
+                    <div class="Accounts_List_Item_Account"><span><%- new Date(outbound.flights[i].depDateTime).format('mm/dd/yyyy - HH:MM') %></span><span class="v-pull-right"><%- new Date(outbound.flights[i].arrDateTime).format('mm/dd/yyyy - HH:MM') %></span></div>
+                </div>
+            </li>
+            <% } %>
+        </ul>
+    </div>
+
+    <% if (inbound.flights.length) { %>
+    <div class="Inbound v-list-wrapper">
+        <div class="v-list-title">Inbound:</div>
+        <ul class="v-list" style="margin: 0;">
+            <% for (var i = 0; i < inbound.flights.length; i++) { %>
+            <li class="v-list-item">
+                <div class="v-list-item-el">
+                    <div class="Accounts_List_Item_Heading">
+                        <span class="Accounts_List_Item_AccountType">
+                            <span class="Accounts_List_Item_AccountType_Inner"><%- inbound.flights[i].fromAirport.code %> - <%- inbound.flights[i].fromCity.value %></span>
+                        </span>
+                        <span class="Accounts_List_Item_AvailableBalance" style="font-weight: bold;"><%- inbound.flights[i].toAirport.code %> - <%- inbound.flights[i].toCity.value %></span>
+                    </div>
+                    <div class="Accounts_List_Item_Account"><span><%- new Date(inbound.flights[i].depDateTime).format('mm/dd/yyyy - HH:MM') %></span><span class="v-pull-right"><%- new Date(inbound.flights[i].arrDateTime).format('mm/dd/yyyy - HH:MM') %></span></div>
+                </div>
+            </li>
+            <% } %>
+        </ul>
+    </div>
+    <% } %>
+
+    <div class="Fares v-list-wrapper">
+        <div class="v-list-title">Fares & Taxes:</div>
+        <ul class="v-list">
+
+            <li class="v-list-item">
+                <div class="v-list-item-el">
+                    <div class="Accounts_List_Item_Heading">
+                        <span class="Accounts_List_Item_AccountType">
+                            <span class="Accounts_List_Item_AccountType_Inner"><%- passengers.adult %>x Adult(s)</span>
+                        </span>
+                        <span class="Accounts_List_Item_AvailableBalance"><%- core.getCurrencyAlias(currency) %> <%- core.formatBalance(fares.adultBaseFare, 2, '.', ',') %></span>
+                    </div>
+                    <div class="Accounts_List_Item_Account"><span>Taxes</span><span class="v-pull-right"><%- core.getCurrencyAlias(currency) %> <%- core.formatBalance(fares.adultTax, 2, '.', ',') %></span></div>
+                </div>
+            </li>
+
+            <% if (passengers.child) { %>
+            <li class="v-list-item">
+                <div class="v-list-item-el">
+                    <div class="Accounts_List_Item_Heading">
+                    <span class="Accounts_List_Item_AccountType">
+                        <span class="Accounts_List_Item_AccountType_Inner"><%- passengers.child %>x Child(s)</span>
+                    </span>
+                        <span class="Accounts_List_Item_AvailableBalance"><%- core.getCurrencyAlias(currency) %> <%- core.formatBalance(fares.childBaseFare, 2, '.', ',') %></span>
+                    </div>
+                    <div class="Accounts_List_Item_Account"><span>Taxes</span><span class="v-pull-right"><%- core.getCurrencyAlias(currency) %> <%- core.formatBalance(fares.childTax, 2, '.', ',') %></span></div>
+                </div>
+            </li>
+            <% } %>
+
+            <% if (passengers.infant) { %>
+            <li class="v-list-item">
+                <div class="v-list-item-el">
+                    <div class="Accounts_List_Item_Heading">
+                    <span class="Accounts_List_Item_AccountType">
+                        <span class="Accounts_List_Item_AccountType_Inner"><%- passengers.infant %>x Infant(s)</span>
+                    </span>
+                        <span class="Accounts_List_Item_AvailableBalance"><%- core.getCurrencyAlias(currency) %> <%- core.formatBalance(fares.infantBaseFare, 2, '.', ',') %></span>
+                    </div>
+                    <div class="Accounts_List_Item_Account"><span>Taxes</span><span class="v-pull-right"><%- core.getCurrencyAlias(currency) %> <%- core.formatBalance(fares.infantTax, 2, '.', ',') %></span></div>
+                </div>
+            </li>
+            <% } %>
+
+            <li class="v-list-item">
+                <span class="v-list-item-el" style="font-weight: bolder;">Total<span class="v-pull-right" style="padding-right: 10px;"><%- core.getCurrencyAlias(currency) %> <%- core.formatBalance(fare, 2, '.', ',') %></span></span>
+            </li>
+
+        </ul>
+
+    </div>
+
+    <div class="v-screen-btn-wrapper"><button class="Btn_Continue v-btn-big">Book flight</button></div>
+</div>

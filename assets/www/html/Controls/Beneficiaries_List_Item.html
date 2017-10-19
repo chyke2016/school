@@ -1,0 +1,19 @@
+<li class="v-list-item" data-model-id="<%- modelId %>">
+   <span class="Btn_Delete v-list-item-el fa fa-trash-o" style="width: 25px; color: red; font-size: 20px;">        </span>
+    <div class="v-list-item-el beneficiary_Item">
+        <div class="Accounts_List_Item_Heading">
+            <span class="Accounts_List_Item_AccountType">
+                <span class="Accounts_List_Item_AccountType_Inner"><%- beneficiaryName %></span>
+            </span>
+            <span class="Accounts_List_Item_AvailableBalance" style="visibility: hidden;">|</span>
+        </div>
+        <div class="Accounts_List_Item_Account"><%- beneficiaryAccountNumber %></div>
+        <span class="Accounts_List_Item_Currency">
+            <% if(beneficiaryAccountCurrency) { %>
+               <%- beneficiaryAccountCurrency %>
+             <% } %>
+                
+        </span>
+    </div>
+    <span class="v-list-item-el v-list-item-arrow fa fa-chevron-right"></span>
+</li>

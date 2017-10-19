@@ -1,0 +1,65 @@
+<div class="Transaction_Details-top-section">
+    <div style="font-size: 14px;">
+        <% if (transStatus === 'D') { %>
+        Debit Transfer
+        <% } if (transStatus === 'C') { %>
+        Credit Transfer
+        <% } if (transStatus === 'FEE') { %>
+        Fee Transfer
+        <% } %>
+    </div>
+    <div style="font-size: 35px; line-height: 43px;">
+        <span style="font-size: 20px; vertical-align: top; line-height: 34px;"><%- currencyAlias %> </span><%- transAmount %>
+    </div>
+    <div style="font-size: 14px;">
+        <span class="fa fa-calendar-o" style="margin-right: 3px;"></span> <%- transDate %>
+    </div>
+</div>
+
+<% if (beneficiary && beneficiary.trim()) { %>
+<div class="v-list-title">Beneficiary</div>
+<ul class="v-list">
+    <li class="v-list-item">
+        <span class="v-list-item-el">
+            <span class="fa fa-user"></span>
+        </span>
+        <span class="v-list-item-el"><%- beneficiary %></span>
+    </li>
+</ul>
+<% } %>
+
+<% if (channel && channel.trim()) { %>
+<div class="v-list-title">Channel</div>
+<ul class="v-list">
+    <li class="v-list-item">
+        <span class="v-list-item-el">
+            <span class="fa fa-code-fork"></span>
+        </span>
+        <span class="v-list-item-el"><%- channel %></span>
+    </li>
+</ul>
+<% } %>
+
+<% if (transBranch && transBranch.trim()) { %>
+<div class="v-list-title">Branch</div>
+<ul class="v-list">
+    <li class="v-list-item">
+        <span class="v-list-item-el">
+            <span class="fa fa-location-arrow"></span>
+        </span>
+        <span class="v-list-item-el"><%- transBranch %></span>
+    </li>
+</ul>
+<% } %>
+
+<% if (transRemark && transRemark.trim()) { %>
+<div class="v-list-title">Remark:</div>
+<ul class="v-list">
+    <li class="v-list-item">
+            <span class="v-list-item-el" style="font-size: 18px;">
+                <span class="fa fa-comment-o"></span>
+            </span>
+        <span class="v-list-item-el"><%- transRemark %></span>
+    </li>
+</ul>
+<% } %>

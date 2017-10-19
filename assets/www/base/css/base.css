@@ -1,0 +1,416 @@
+body {
+    margin: 0;
+}
+
+div, span, input {
+    box-sizing: border-box;
+}
+
+input {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.input {
+    -webkit-user-select: initial;
+    -webkit-appearance: none;
+    border-radius: initial;
+}
+
+
+/* Controls */
+
+.v-navigation {
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    overflow: hidden;
+}
+
+
+.v-page-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.v-page {
+    top: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+    height: 568px;
+    box-shadow: 0px 0px 8px #444444;
+    background-color: #f0f0f0;
+}
+
+.v-page-content {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+.v-topmost {
+    z-index: 2000;
+}
+
+.v-prev-topmost {
+    z-index: 1000;
+}
+
+.animate {
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+
+
+.v-page-mask {
+    position: absolute;
+    left: 0;
+    top: 64px;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.v-scrollable {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+.v-nav-bar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+}
+
+.v-nav-bar .v-btn {
+    position: relative;
+    top: 9px;
+    z-index: 20;
+    padding: 6px 12px 7px;
+    margin-top: 0;
+}
+
+.v-pull-left {
+    float: left;
+}
+
+.v-pull-right {
+    float: right;
+}
+
+.v-nav-bar .v-pull-left {
+    position: relative;
+    z-index: 1;
+}
+
+.v-nav-bar .v-pull-right {
+    position: relative;
+    z-index: 1;
+}
+
+.v-nav-bar .v-title {
+    position: absolute;
+    display: block;
+    width: 100%;
+    padding: 0;
+    font-size: 17px;
+    line-height: 44px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+
+.v-btn {
+    position: relative;
+    display: inline-block;
+    padding: 6px 8px 7px;
+    margin-bottom: 0;
+    font-size: 12px;
+    line-height: 1;
+    color: #333;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: top;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+}
+
+
+.v-adds-block {
+    height: 220px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+    z-index: 2000;
+}
+
+.v-adds-block-bar {
+    height: 20px;
+    background-color: #000000;
+}
+
+.v-adds-block-content {
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    right: 0;
+    bottom: 0;
+}
+
+
+.v-tab-bar {
+    bottom: 0;
+    display: table;
+    left: 0;
+    right: 0;
+    height: 50px;
+    table-layout: fixed;
+    border-top: 1px solid #ddd;
+    position: absolute;
+    z-index: 3000;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.v-tab-bar-item {
+    display: table-cell;
+    width: 1%;
+    height: 50px;
+    color: #929292;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.v-tab-bar-item-icon {
+    font-size: 24px;
+    -webkit-transition: text-shadow .4s ease;
+}
+
+.v-tab-bar-item-icon.active {
+    text-shadow: 0 0 12px #2090eb;
+}
+
+.v-tab-bar-item-label {
+    display: block;
+    font-size: 11px;
+}
+
+
+.v-switcher {
+    background-color: #848484;
+    position: relative;
+    height: 32px;
+    width: 60px;
+    border-radius: 18px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.v-switcher-btn {
+    background-color: #e7e7e7;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    height: 24px;
+    width: 24px;
+    border-radius: 12px;
+}
+
+
+.v-list {
+    padding: 0 0 0 12px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    list-style: none;
+    background-color: #fff;
+    border-top: 1px solid #d2d2d3;
+}
+
+.v-list-item {
+    position: relative;
+}
+
+.v-list-item-badge {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+p {
+    margin: 10px;
+}
+
+
+.v-carousel {
+
+}
+
+.v-carousel-item {
+    float: left;
+    /*overflow: hidden;*/
+    position: relative;
+}
+
+
+/* Calendar */
+
+.v-calendar {
+    background: #ffffff;
+    border-bottom: 1px solid #c8c7cc;
+    overflow: hidden;
+}
+
+.v-calendar-carousel {
+
+}
+
+.v-calendar-controls {
+    height: 44px;
+    border-bottom: 1px solid #c8c7cc;
+    background-color: #efeff4;
+    color: #000000;
+    position: relative;
+}
+
+.v-btn-calendar-icon {
+    display: inline-block;
+    line-height: 1;
+    width: 48px;
+    height: 43px;
+    text-align: center;
+    font-size: 18px;
+    padding: 14px 0 0 0;
+    position: absolute;
+    background: #efeff4;
+    z-index: 1;
+}
+
+.v-calendar-fade-left {
+    position: absolute;
+    background: url('../../images/calendar-fade-left.png') no-repeat left top;
+    background-size: 70px 43px;
+    left: 46px;
+    top: 0;
+    width: 70px;
+    height: 43px;
+    z-index: 1;
+}
+
+.v-calendar-fade-right {
+    position: absolute;
+    background: url('../../images/calendar-fade-right.png') no-repeat left top;
+    background-size: 70px 43px;
+    right: 46px;
+    top: 0;
+    width: 70px;
+    height: 43px;
+    z-index: 1;
+}
+
+.v-calendar-title {
+    position: absolute;
+    left: 44px;
+    right: 44px;
+    text-align: center;
+    top: -31px;
+    text-transform: uppercase;
+}
+
+.v-calendar-item-content {
+    padding: 6px 0;
+    color: #a9a9a9;
+}
+
+.v-calendar-item-content-line {
+    display: table;
+    width: 100%;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    margin: 12px 0;
+}
+
+.v-calendar-day {
+    display: table-cell;
+    text-align: center;
+    width: 14%;
+}
+
+.v-calendar-day.active {
+    color: #dd4f05;
+}
+
+.v-calendar-day.selected-interval {
+    background-color: #f1f1f1;
+}
+
+.v-calendar-day-inner {
+    padding: 5px 0;
+    width: 30px;
+    display: inline-block;
+}
+
+.v-calendar-day.selected > .v-calendar-day-inner {
+    background-color: #dd4f05;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+.v-calendar-day.selected-from {
+    background: url('../../images/calendar-active-day-bg.png') repeat-y right top;
+}
+
+.v-calendar-day.selected-to {
+    background: url('../../images/calendar-active-day-bg.png') repeat-y left top;
+}
+
+.v-calendar-day.selected-from.selected-to {
+    background: none;
+}
+
+
+
+.spinner {
+    z-index: 1;
+}
+
+.spinner > div {
+    display: none;
+}
+
+.spinner > div.visible {
+    display: block;
+}

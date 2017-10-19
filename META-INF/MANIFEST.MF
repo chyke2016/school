@@ -1,0 +1,1459 @@
+Manifest-Version: 1.0
+Built-By: 1.0.0
+Created-By: Android Gradle 1.0.0
+
+Name: assets/www/html/Life/Tripican/Places_View.html
+SHA1-Digest: J2VLV5jVITgAATLt2feh8e9K2Lc=
+
+Name: assets/www/html/Bills/Bills_Biller.html
+SHA1-Digest: VnKaaqy50OSolbifyn+fCz+8/lY=
+
+Name: assets/www/bower_components/jquery/src/queue.js
+SHA1-Digest: JHwe6sUggkD9rThqwN3qEv6cRLs=
+
+Name: assets/www/html/Cheques/Cheque_Stop_View.html
+SHA1-Digest: xqcItxbY6PYyNdkzChbl1jhyukA=
+
+Name: assets/www/html/Profile/Profile_VIew.html
+SHA1-Digest: lhUto8WhxPT+u4VSTm+gv5UVHNc=
+
+Name: res/drawable-mdpi-v4/push_icon.png
+SHA1-Digest: Mvsi9VA/Fab+QrxIZEiQ1GXMtoI=
+
+Name: assets/www/bower_components/jquery/src/ajax/xhr.js
+SHA1-Digest: UsGHZJdg3UoM2PXySwUwC4DhA/o=
+
+Name: assets/www/bower_components/jquery/src/selector-native.js
+SHA1-Digest: 16L10UkgHnFk3hGjGTBeGmyDNGg=
+
+Name: assets/www/js/views/Transfer/Diamond_Money_Transfer_View.js
+SHA1-Digest: yYLTuM3sm3FIhpc2IxJOPGxjXF4=
+
+Name: assets/www/html/Controls/Accounts_List_Item.html
+SHA1-Digest: Yc3no2Y8HrWeRTRKDi4ECI/XTLY=
+
+Name: assets/www/images/diamond-mask.gif
+SHA1-Digest: KluSIY7mDCtIxmTkWjlN1Sv5Ybc=
+
+Name: assets/www/js/views/Forgot_Pwd/Forgot_Pwd_Success_View.js
+SHA1-Digest: LogT/15YibiCsZoVVyXXdhmKeOs=
+
+Name: res/drawable-xxhdpi-v4/ic_action_remove.png
+SHA1-Digest: GbOqf2Yga6qVAxaA3ec35ac0Yio=
+
+Name: assets/www/bower_components/jquery/src/css/curCSS.js
+SHA1-Digest: K/hg/VtByiWiK2sGzXvGHPCX5YA=
+
+Name: assets/www/js/views/Bills/Bills_View.js
+SHA1-Digest: uuRzQHj0XOp1+WIXg8cm5WeIN7E=
+
+Name: res/drawable-xxhdpi-v4/ic_action_next_item.png
+SHA1-Digest: c25EZH3BjQyHSy++YinAPl3kQmE=
+
+Name: assets/www/html/Life/Tripican/Ticketing_View.html
+SHA1-Digest: 5OErO14tVvvSmM27kbcUWdg+dJ4=
+
+Name: assets/www/js/views/Life/Afritickets/Afritickets_View.js
+SHA1-Digest: 95dbniUJKy6SFiJLw0o58A8jsQw=
+
+Name: assets/www/plugins/aesCTR.js
+SHA1-Digest: v0YK6Dr42x85UcJdNZd6B6RpFPw=
+
+Name: assets/www/bower_components/jquery/src/traversing.js
+SHA1-Digest: iOOLcB+83BmLTKROP/+6bY2J5nY=
+
+Name: assets/www/bower_components/jquery/src/event.js
+SHA1-Digest: VgdSkBJd6aOgvbW3vGrtRCUvdnU=
+
+Name: resources.arsc
+SHA1-Digest: 0zFadUk9p0lDCSn8+G30ZFpg4r8=
+
+Name: assets/www/bower_components/font-awesome/scss/_path.scss
+SHA1-Digest: CAFYrrG/bfWeyYsrvtRNph2cnKM=
+
+Name: assets/www/images/menu-drawerbg.png
+SHA1-Digest: Y1oAcyvkKGnZcBZ3l/jkXAvISy8=
+
+Name: assets/www/plugins/cordova-plugin-dialogs/www/android/notificati
+ on.js
+SHA1-Digest: 0/BIVdB9LIdjiHO/luFp75b7ovg=
+
+Name: assets/www/font/HelveticaNeue-Thin.woff
+SHA1-Digest: uwg0Pz9gGXP+3i0i5MlUpRNuyPM=
+
+Name: res/drawable-mdpi-v4/ic_action_previous_item.png
+SHA1-Digest: hQHJ4uWUXYR/W5HKEfkoL0otUKY=
+
+Name: assets/www/html/Life/Life_Success_View.html
+SHA1-Digest: dJNXCuCcBYHXmyvfQ6AHCGYhgZU=
+
+Name: assets/www/bower_components/jquery/MIT-LICENSE.txt
+SHA1-Digest: 4yGrv+AjOP1pm2bg2hO9q07kdZQ=
+
+Name: assets/www/bower_components/requirejs-text/package.json
+SHA1-Digest: g6o34F0Kls07Kxfi8GSatk61BrI=
+
+Name: assets/www/bower_components/jquery/src/effects/animatedSelector.
+ js
+SHA1-Digest: kXcq9IP4ExD0Rnw5uBto/psV1A8=
+
+Name: res/drawable/push_icon.png
+SHA1-Digest: vRH7uhmTKidbmsOOZlkBaE0tq+8=
+
+Name: assets/www/images/diamond-stripes.svg
+SHA1-Digest: 3h2+w/SJuPIkx93MsHHW4r/gOUE=
+
+Name: assets/www/bower_components/jquery/src/var/push.js
+SHA1-Digest: UFUJKkJkQf0JSGK7xF10o/br+f4=
+
+Name: assets/www/plugins/com.phonegap.plugins.PushPlugin/www/PushNotif
+ ication.js
+SHA1-Digest: pUDqQ1kqmC6hEj5A29r+UMu4MFA=
+
+Name: assets/www/bower_components/jquery/src/attributes/prop.js
+SHA1-Digest: xzWbyqriyq/TOLiEUxFs6GYxuFE=
+
+Name: assets/www/js/views/Transfer/Transfer_To_Own_Accounts_View.js
+SHA1-Digest: aChJWX/rZEodSCB21ia5mOGhFNE=
+
+Name: assets/www/bower_components/font-awesome/less/list.less
+SHA1-Digest: 9TvCCIShQQ2VC0o2ozDFGBqLVas=
+
+Name: assets/www/html/Controls/Flights_List_Item.html
+SHA1-Digest: maa3v7torBjn4LK4mNxrDR0IAqs=
+
+Name: assets/www/bower_components/font-awesome/scss/_animated.scss
+SHA1-Digest: ja8Ymy+KQESVuEJLb9G6Yw3Rwtw=
+
+Name: assets/www/base/js/Base_Carousel_View.js
+SHA1-Digest: 8ycM8cvB8v68AshTmPo0t7qlaOQ=
+
+Name: assets/www/plugins/cordova-plugin-contacts/www/ContactField.js
+SHA1-Digest: RzlF4Q/udnGuO0tUd5BSIqXFb7c=
+
+Name: assets/www/bower_components/jquery/src/event/alias.js
+SHA1-Digest: UuPM8d+NLHX26FHRf9/g2eXl9a0=
+
+Name: assets/www/bower_components/backbone/backbone.js
+SHA1-Digest: rgry9AZSiNthUFEWDOfZp8YJQhw=
+
+Name: assets/www/html/Cheques/Cheque_Confirm_View.html
+SHA1-Digest: G5p1j9U/A+ycTh+k8qyQIEXyAaQ=
+
+Name: assets/www/js/views/Profile/User_Data_View.js
+SHA1-Digest: IlA5u18crhz6B1pXPMxjGI8OL8U=
+
+Name: assets/www/bower_components/jquery/src/data.js
+SHA1-Digest: t/BjGJMeW2rcJtR0KplTEtfi81w=
+
+Name: assets/www/html/Life/Tripican/Movie_Details_Item.html
+SHA1-Digest: LHUKx7dyLA8yCjCqUMp6+AmaoYw=
+
+Name: assets/www/js/views/Profile/Change_Pin_View.js
+SHA1-Digest: 7HSPXjWTI+BIEc2pk5eu6pmTTQ8=
+
+Name: assets/www/bower_components/backbone/LICENSE
+SHA1-Digest: 4ptibFetJelej84qkzXTARSiLP8=
+
+Name: assets/www/bower_components/font-awesome/fonts/fontawesome-webfo
+ nt.eot
+SHA1-Digest: PmP8mz3kWA8fO+wGMUNvdVuA8Wc=
+
+Name: assets/www/bower_components/jquery/src/ajax/var/nonce.js
+SHA1-Digest: pElEE6z5N5BNlNfsW0Tkt2VXuRk=
+
+Name: assets/www/html/Branches/Branches_List_View.html
+SHA1-Digest: iKOXT4Nm7qhaa1iF6YVGySV8v8Q=
+
+Name: res/drawable-land-ldpi-v4/screen.png
+SHA1-Digest: ZP/h9mMT60urAbMMj8cV6I6pzqs=
+
+Name: assets/www/html/Cheques/Card_cc_View.html
+SHA1-Digest: MOcdH1OamglogQN0VnsiiIwTRG8=
+
+Name: assets/www/bower_components/jquery/src/attributes/attr.js
+SHA1-Digest: tdfnp/2BGXUl5xAkr+ZiNMCAmmU=
+
+Name: assets/www/bower_components/jquery/src/traversing/findFilter.js
+SHA1-Digest: F1t0esoVQa7JMTUsK8VtKSSEJwg=
+
+Name: assets/www/html/Accounts/Accounts_View_Account.html
+SHA1-Digest: xYsmAIB6QzUsLHRqfPmzPeqBtzQ=
+
+Name: assets/www/html/Profile/Change_Password_View.html
+SHA1-Digest: TDr4ZnNZD+EP+qoIs/qDmAo2m/s=
+
+Name: assets/www/bower_components/jquery/src/serialize.js
+SHA1-Digest: 7F0ywfuEejVAfpqz90+YEraN490=
+
+Name: assets/www/html/Life/Afritickets/Afritickets_View.html
+SHA1-Digest: PhqYVCqtYxftb1JdA8RRCqoZK74=
+
+Name: assets/www/bower_components/jquery/src/effects/Tween.js
+SHA1-Digest: dqvh/91GOBMWXsbLa0/jH9uB3so=
+
+Name: assets/www/js/views/Profile/Reset_Pin_View.js
+SHA1-Digest: a9d7E4XBLARjS7G/NBb3Tz8eFC0=
+
+Name: assets/www/plugins/cordova-plugin-touchid/www/touchid.js
+SHA1-Digest: wRhZKXo44gEoQyvyI/YHoE3Q3HE=
+
+Name: assets/www/bower_components/jquery/src/selector.js
+SHA1-Digest: 1hyetjAKoH5FUclqPpRSugIBeoY=
+
+Name: assets/www/bower_components/backbone/component.json
+SHA1-Digest: iY74emD/pS7ATiogFJeY9dCv0T4=
+
+Name: assets/www/plugins/cordova-plugin-camera/www/CameraPopoverHandle
+ .js
+SHA1-Digest: +Z9CD65lahmjGTY2hRUvgu+3p1w=
+
+Name: assets/www/base/css/base.css
+SHA1-Digest: VWVSBB6SzCeeyJRus9YqYJ0XOxs=
+
+Name: assets/www/html/Faq/Faq_Items_View.html
+SHA1-Digest: boxT+fTyWAHwLKLKWGXmy5YEn6c=
+
+Name: assets/www/html/Life/Life_View.html
+SHA1-Digest: 2cLO9dr0HXG4V/2CZZOwTDs2G/I=
+
+Name: res/drawable-hdpi-v4/push_icon.png
+SHA1-Digest: 3V2u9Owf3aNWXWQOu0ssV8JRT0U=
+
+Name: assets/www/font/HelveticaNeue-Light.woff
+SHA1-Digest: TfuP2XKyoFh24JuKkSaKjaIM5zs=
+
+Name: assets/www/js/views/Contact_Us/Contact_Us_View.js
+SHA1-Digest: RvcyR3FW/BMrRVL3mSxk9b5Wsfg=
+
+Name: assets/www/images/sign-in-logo.png
+SHA1-Digest: PeDgicyOrPAXfxfFSTAvo4jJNsQ=
+
+Name: assets/www/bower_components/underscore/package.json
+SHA1-Digest: sDLrHhNVESxwQoxTpYYcTfpBzUU=
+
+Name: assets/www/js/views/Notification/Notification_View.js
+SHA1-Digest: x61IcG3+XlKRv4US5130tLdYo+A=
+
+Name: assets/www/plugins/cordova-plugin-contacts/www/ContactOrganizati
+ on.js
+SHA1-Digest: V/ZNnJ9+3bWpCZhKjbOFHFHx3U0=
+
+Name: assets/www/js/views/Life/Tripican/Showing_Today_View.js
+SHA1-Digest: Ak/KxhZJkm9kz5CZG0Dt6zY2TDE=
+
+Name: assets/www/bower_components/jquery/src/intro.js
+SHA1-Digest: NV7R3aa6K9BjcXncZCI7e4FLFSo=
+
+Name: assets/www/html/Notification/Notification_Item.html
+SHA1-Digest: d1Rp+8K9xAYOclKNtgc8E9OLuCM=
+
+Name: assets/www/js/views/Life/Life_View.js
+SHA1-Digest: 3AOPNfc5gBbF2MqbDL9Mcpbvs58=
+
+Name: assets/www/html/Branches/Branches_View.html
+SHA1-Digest: NzAKL+cuPYQzDsj4Gpm2I70/jHs=
+
+Name: assets/www/font/flaticon1.eot
+SHA1-Digest: j5MLPkdpnRXLx0gfDAdw6KM+nMk=
+
+Name: assets/www/bower_components/jquery/src/attributes.js
+SHA1-Digest: RbGwRqkzr/bpf22WSWiFAvvRW/k=
+
+Name: assets/www/bower_components/jquery/src/var/strundefined.js
+SHA1-Digest: wkpyJP8DXk58Pwd/hM5k2n9U1Wo=
+
+Name: assets/www/plugins/cordova-plugin-contacts/www/ContactAddress.js
+SHA1-Digest: W8cwvaMv/Rq3iB6HucfXTqb4B3c=
+
+Name: assets/www/font/flaticon.eot
+SHA1-Digest: 3AQFBA4eMT1x98JFMxMgL+srj3Q=
+
+Name: assets/www/bower_components/jquery/src/var/pnum.js
+SHA1-Digest: Pqcziw43EQE8lkHuBBnHoZueolM=
+
+Name: assets/www/plugins/nl.x-services.plugins.socialsharing/www/Socia
+ lSharing.js
+SHA1-Digest: K2x9e9eZMHlFq1wTvNBVBPC5lao=
+
+Name: assets/www/bower_components/jquery-hammerjs/README.md
+SHA1-Digest: kBLkbATZjpld9jLsaPOl5nEWV84=
+
+Name: assets/www/js/views/Profile/Touch_ID_View.js
+SHA1-Digest: qhQa6lDrhYhWdITqa8VkkilHIQQ=
+
+Name: assets/www/plugins/cordova-plugin-camera/www/CameraConstants.js
+SHA1-Digest: BjlHG5/mByxW11ktFQ1zf00UQBU=
+
+Name: assets/www/html/Faq/Faq_View.html
+SHA1-Digest: m0RoEJdGOmSh7GTZpakulYsqX28=
+
+Name: assets/www/images/tick.png
+SHA1-Digest: NNGI8NjVmW+kSRB5lKUN4eXPCDs=
+
+Name: res/drawable-mdpi-v4/ic_action_remove.png
+SHA1-Digest: nKigmEPh2ytFH29tSmzdel83ejA=
+
+Name: assets/www/bower_components/jquery/src/attributes/support.js
+SHA1-Digest: akyzcvw1rDacMprF41YDwDkN6ZE=
+
+Name: res/drawable-port-hdpi-v4/screen.png
+SHA1-Digest: z4sJ4HvOPQLvK/0yTKtJIWA1cNI=
+
+Name: assets/www/bower_components/jquery/src/core/access.js
+SHA1-Digest: 9tKJe5CD1kovp7mdcqnJOFNuLTY=
+
+Name: assets/www/html/Map/Map_View.html
+SHA1-Digest: IDgKxEXqsVIjj4LhH92GNfNBack=
+
+Name: assets/www/bower_components/jquery/src/var/support.js
+SHA1-Digest: i1PcQ03x1XBMRLhsckK8J4Caj0o=
+
+Name: assets/www/js/appData.js
+SHA1-Digest: k+xwMC+97w9+JGzJQoy8MIKxf0M=
+
+Name: assets/www/js/views/Life/Wakanow/Wakanow_Search_View.js
+SHA1-Digest: /phcBpNHNFeIrdGFTTTKCmFJN2Y=
+
+Name: assets/www/js/views/Sign_In_View.js
+SHA1-Digest: JLUGBNxZ0/FBXBRsr67X6i0U3Ys=
+
+Name: assets/www/images/splash-portrait.png
+SHA1-Digest: LMyeiZS+8Bofh9SWGfRIca+ucs0=
+
+Name: assets/www/plugins/Chart.js
+SHA1-Digest: 15hNNdm4rnvEA45KX13Z98shOhs=
+
+Name: assets/www/html/Controls/Countries_List_Item.html
+SHA1-Digest: sgIvn6FKHF+FR9UZUADSUV0psAM=
+
+Name: assets/www/plugins/core.js
+SHA1-Digest: uwtoLkVnF/EdIVX43h73fwnWLGE=
+
+Name: assets/www/html/Life/Afritickets/Afritickets_Event_View_Info.htm
+ l
+SHA1-Digest: xnyzO9/RIQ78IgfrXKVpwzjPVeE=
+
+Name: assets/www/js/views/Faq/Faq_View.js
+SHA1-Digest: Ou46AJr/ALcZzlZaiVlDRHffGXQ=
+
+Name: assets/www/bower_components/jquery-hammerjs/jquery.hammer.js
+SHA1-Digest: VzmcHXcNTM89rQgJHMbuQ2+OVhs=
+
+Name: assets/www/html/Transfers/Transfers_View.html
+SHA1-Digest: xt15i7z2ZOQGwKraXYkSaz6RcLw=
+
+Name: assets/www/js/index.js
+SHA1-Digest: YYj6w/c1eCli3yrwbqTIv8w01wM=
+
+Name: assets/www/bower_components/hammerjs/CHANGELOG.md
+SHA1-Digest: rYcMWzjLt59kfG5Vncnpx6aRy/k=
+
+Name: assets/www/bower_components/hammerjs/LICENSE.md
+SHA1-Digest: mivyasjh2T/nZpizIy2mu/22Q7Y=
+
+Name: assets/www/html/Bills/Smile_View.html
+SHA1-Digest: lZGWIjfUT1fZz5i8E4ZNy0dAsAE=
+
+Name: assets/www/bower_components/jquery/src/var/hasOwn.js
+SHA1-Digest: ylypTZYLU9qW/RCf1PjfQpRXFdU=
+
+Name: assets/www/bower_components/jquery/src/exports/global.js
+SHA1-Digest: AOYq0qphmHv2TcpZJBEB4VYLFqY=
+
+Name: assets/www/html/Register/Register_Terms_View.html
+SHA1-Digest: omQTxFWs5bpHXw+kr+ccIqG+hII=
+
+Name: assets/www/base/html/Base_Adds_Block_View.html
+SHA1-Digest: FsRPBafuuYkXI5OXUySF4W2BYbo=
+
+Name: assets/www/html/Life/Tripican/Ticket_Confirm_Item.html
+SHA1-Digest: A37YdaJ36hmUicaELrdyz6smqFg=
+
+Name: assets/www/bower_components/font-awesome/less/core.less
+SHA1-Digest: KKHO8TJrPsMJ3WvUB5Qnfr34IDo=
+
+Name: assets/www/js/app.js
+SHA1-Digest: VRlfOyrJLWoeHLkhUYzh6qc0eAY=
+
+Name: assets/www/bower_components/jquery/src/outro.js
+SHA1-Digest: FuvfjKdSd+ZFpNPyH5uw4PxPSHQ=
+
+Name: assets/www/bower_components/jquery/src/core.js
+SHA1-Digest: 071kCkDiUbBc7afrLrL6jhLd61I=
+
+Name: assets/www/bower_components/jquery/src/dimensions.js
+SHA1-Digest: dVbnCKgnR4W5esqPb3kHj4lqT10=
+
+Name: assets/www/images/transaction-success.png
+SHA1-Digest: lIjjdzBrdqwNCaVCm0nV1jCTYV0=
+
+Name: assets/www/bower_components/jquery/src/manipulation/var/rcheckab
+ leType.js
+SHA1-Digest: wvPMaccmwsSHq/X5cXCinzjJ9H0=
+
+Name: assets/www/base/js/Base_Adds_Block_View.js
+SHA1-Digest: GV7U4qStlGto833YXQDbPQol67k=
+
+Name: assets/www/html/Life/Afritickets/Afritickets_Event_View.html
+SHA1-Digest: YbOZnYc0ncRU8o5qkXHVmG3xohg=
+
+Name: assets/www/base/html/Base_Calendar_View_Item.html
+SHA1-Digest: /ledFTONwdfojarCwHANEi7ErsU=
+
+Name: assets/www/html/Sign_In/Sign_In_View.html
+SHA1-Digest: gF/0yG23ZuZZyd69LwHWFX+wHqY=
+
+Name: assets/www/js/views/Bills/Bill_History_View.js
+SHA1-Digest: h6ksXZJiXwWAHJQvVuVZpl5ieNU=
+
+Name: assets/www/js/views/Profile/Profile_View.js
+SHA1-Digest: +9zusr/wwOnWVeyEBXkcpXnoRB0=
+
+Name: assets/www/js/views/Branches/Branches_List_View.js
+SHA1-Digest: cbtT9qZG9FOTO7aDOf6m8MLholo=
+
+Name: assets/www/html/Register/Register_View.html
+SHA1-Digest: a6ZVPch2bK6XRfAqVZhlMnWpaFU=
+
+Name: assets/www/plugins/currencyCodes.js
+SHA1-Digest: lmV4NJ8dhoMs89z4EuZuaVt0J6w=
+
+Name: assets/www/images/icon-big.png
+SHA1-Digest: ECCXqsWB8QYoG3Vl1XJOGgNVdh8=
+
+Name: assets/www/js/views/Register/Register_View.js
+SHA1-Digest: BTbEueP7uZuVOvi9W08Y8axmcYY=
+
+Name: assets/www/html/Bills/Bill_Beneficiary_Phone_No.html
+SHA1-Digest: k0qGfTaIf80j0q97LdqMQJ0eX3k=
+
+Name: assets/www/images/sign-in-banking-bg-nav-bar.jpg
+SHA1-Digest: pHM8CCIgaRq0kyopXuRCXnOD6vU=
+
+Name: assets/www/html/Life/Wakanow/Wakanow_Terms_View.html
+SHA1-Digest: 9qet23++rh8EI7Xxmw2nGv14IEw=
+
+Name: assets/www/bower_components/font-awesome/css/font-awesome.min.cs
+ s
+SHA1-Digest: jBXGvYLHHp7xuxHPJOUC/gdRisU=
+
+Name: assets/www/plugins/timeout.js
+SHA1-Digest: fInRVpob0XmM1YC7GkdnPTvUhDE=
+
+Name: assets/www/bower_components/font-awesome/scss/font-awesome.scss
+SHA1-Digest: AJ84k0AqwqT2vNXM8VpMzWbnHZ4=
+
+Name: assets/www/plugins/cordova-plugin-contacts/www/ContactFindOption
+ s.js
+SHA1-Digest: Y0vJwC2mIwYsjyyhN3FXj0V7hm0=
+
+Name: assets/www/bower_components/hammerjs/plugins/hammer.showtouches.
+ js
+SHA1-Digest: TVwUKJGWVeiIA++rFWUQg+52hS8=
+
+Name: assets/www/bower_components/jquery/dist/jquery.min.js
+SHA1-Digest: /+R6FuSxVQ3fujV3zJzJ/chkOv8=
+
+Name: assets/www/css/index.css
+SHA1-Digest: Xn5KKnRg99sIQW5z0rf5zJjEDgI=
+
+Name: assets/www/js/views/Cheques/Cheque_Success_View.js
+SHA1-Digest: EykBNdQhg5FCIeMpvcobfQNqG7s=
+
+Name: assets/www/bower_components/jquery/src/data/var/data_user.js
+SHA1-Digest: MTh+ZKP/UMibLpKVPAciLq1EXH0=
+
+Name: assets/www/bower_components/jquery/src/queue/delay.js
+SHA1-Digest: Z2BoYBRTEEWnfLKdrEsrZkyi0KY=
+
+Name: assets/www/bower_components/font-awesome/less/larger.less
+SHA1-Digest: 5xGegtxQVA28NHK7p9dCgoFafsw=
+
+Name: assets/www/html/Profile/TouchID_View.html
+SHA1-Digest: /06g7vH2wly8VMPG6Pvoae/pwTE=
+
+Name: assets/www/bower_components/jquery-hammerjs/jquery.hammer.min.ma
+ p
+SHA1-Digest: BUx8P/Ea7MNDPg0ke9OVKyVJayI=
+
+Name: assets/www/js/views/Menu_View.js
+SHA1-Digest: 7WHUFG6vY1hS5NJ7YJuvZsMaM+k=
+
+Name: assets/www/bower_components/font-awesome/less/font-awesome.less
+SHA1-Digest: AeeIHPBnjHHdlCl/oYW6bLA5VGA=
+
+Name: assets/www/html/Transfers/FCY_Transfer_View.html
+SHA1-Digest: Pf9sFS76o/PrmHMJfnbffrvjo4U=
+
+Name: assets/www/html/Life/Tripican/Movies_Item.html
+SHA1-Digest: +/D036C4EDmKxgoDgjJt1ZAynfs=
+
+Name: assets/www/font/flaticon.svg
+SHA1-Digest: xY0/OqHVJj5dG2Ew765k1YyGPvs=
+
+Name: assets/www/plugins/cordova-plugin-vibration/www/vibration.js
+SHA1-Digest: bih1ikoIBWqBBH5AQkwveih5HiE=
+
+Name: assets/_where-is-www.txt
+SHA1-Digest: avAF2z5NXxA7dhGqngRyQ0ETAG0=
+
+Name: assets/www/bower_components/jquery/src/core/init.js
+SHA1-Digest: jfzcaW+LDI8tuw4mszCTiVdzo6k=
+
+Name: assets/www/html/Branches/Branches_ATM_View.html
+SHA1-Digest: NGXTavvqnFaHUCuCJLi7gvZrjtI=
+
+Name: assets/www/html/Accounts/Transaction_Details_View.html
+SHA1-Digest: QJa3J9gypOmqpH5CmoeDcYbE04E=
+
+Name: assets/www/html/Life/Wakanow/Wakanow_Book_View_Flight.html
+SHA1-Digest: 45ws58i9zN3BMvhBfAQJDPQAUig=
+
+Name: assets/www/images/calendar-active-day-bg.png
+SHA1-Digest: GzwRDmFN/N1TCrbYRP6/kwqAyFU=
+
+Name: assets/www/html/Bills/Bill_History_View.html
+SHA1-Digest: iAqfkgwvwXldGZh8t6lhKFFrOyk=
+
+Name: assets/www/html/Life/Afritickets/Afritickets_View_Item.html
+SHA1-Digest: PeX+2r15yC2yUx7HWXeHjEOvoEc=
+
+Name: assets/www/bower_components/jquery/src/manipulation/_evalUrl.js
+SHA1-Digest: RVLfsp88Bxw4G0Ee8PqCqdGzYmA=
+
+Name: assets/www/bower_components/jquery/src/var/indexOf.js
+SHA1-Digest: LlZTRJgl0hvpdTd8HuVCuVR/jt4=
+
+Name: assets/www/js/views/Accounts/Accounts_View.js
+SHA1-Digest: FnrpsukU9IyMfpxcZ0LoRGbPx+4=
+
+Name: assets/www/bower_components/jquery/src/css/addGetHookIf.js
+SHA1-Digest: LtHfR4vrSXYUn4lsG9BN7Ja9o4A=
+
+Name: assets/www/html/Share/Share_View.html
+SHA1-Digest: 8xsGdvIzN+T8sLP0FTrDUHOYkns=
+
+Name: assets/www/bower_components/jquery/src/ajax/jsonp.js
+SHA1-Digest: wr17Y8crQ+aNfoE0MS2LRM4CYos=
+
+Name: res/drawable-xhdpi-v4/ic_action_previous_item.png
+SHA1-Digest: 0dsU8dFcc2mtwhzv/EDl6N0yNE0=
+
+Name: assets/www/bower_components/font-awesome/scss/_core.scss
+SHA1-Digest: csKw41RE0p9Eq5BnrluOvpgfsyU=
+
+Name: assets/www/js/views/Accounts/Transaction_Details_View.js
+SHA1-Digest: 9BY6nsWp7LxFx3W9AALHIxkI9Cc=
+
+Name: assets/www/bower_components/requirejs-text/LICENSE
+SHA1-Digest: qRsliy6V5nakfWM8KEfaAd4HMYE=
+
+Name: assets/www/html/Accounts_List_Item.html
+SHA1-Digest: 6t7OqolpXJvs2m2tJ38sLbU9yFY=
+
+Name: assets/www/bower_components/font-awesome/scss/_variables.scss
+SHA1-Digest: slhjadU0p21AvbogfHXPPgymJiQ=
+
+Name: res/drawable-port-mdpi-v4/screen.png
+SHA1-Digest: 2O2lUWzwTRvMh/8sST7gBli/ewg=
+
+Name: assets/www/html/Life/Tripican/Top_Box_Item.html
+SHA1-Digest: V1iA3OyXtCGQ/+VjdDZbNayIIOs=
+
+Name: assets/www/html/Transfers/Transfer_To_Other_Bank_Accounts_View.h
+ tml
+SHA1-Digest: H7AOZuDM1FcAdojVXUpM/gVF5wg=
+
+Name: assets/www/bower_components/jquery/src/sizzle/dist/sizzle.js
+SHA1-Digest: qqDry5x8CHuYOzic+bdbMZPqcBM=
+
+Name: assets/www/bower_components/jquery/src/jquery.js
+SHA1-Digest: 7KLKotMeUxHZ1TAPeuqZaIo5mnI=
+
+Name: assets/www/bower_components/jquery/src/data/Data.js
+SHA1-Digest: p3jMsDlXSFLFXkGUFENI2frXaO0=
+
+Name: assets/www/html/Bills/Add_Beneficiary_Airtime_View.html
+SHA1-Digest: l9X1ICDjFMbTgD5/hSqTVbpgW9U=
+
+Name: assets/www/html/Profile/Change_Pin_View.html
+SHA1-Digest: ddMKoF4BecWckdxaLIPhDwRCOAQ=
+
+Name: assets/www/plugins/cordova-plugin-contacts/www/ContactError.js
+SHA1-Digest: 8KHFmxpYSeekUkg+XhAZoikW0Ok=
+
+Name: assets/www/bower_components/jquery-hammerjs/jquery.hammer.min.js
+SHA1-Digest: ViedaaJ0vlAytSFvd5lQLGI1Yxw=
+
+Name: assets/www/bower_components/jquery/src/deprecated.js
+SHA1-Digest: yOoVZ93r3YheBa2pIXZSrQj/x0Q=
+
+Name: assets/www/bower_components/jquery/src/ajax/script.js
+SHA1-Digest: e2sRlDMC2MQ2Z+yzmU0kzUt6SgU=
+
+Name: assets/www/bower_components/jquery-hammerjs/Gruntfile.coffee
+SHA1-Digest: HvITzV9AqyL7JSfnAwrrnHMqnfU=
+
+Name: assets/www/js/views/Transfer/FCY_Transfer_View.js
+SHA1-Digest: msX1bvUqVTiDmyEcPIvRvSK8XGg=
+
+Name: assets/www/data/countries.js
+SHA1-Digest: tSNl2vLBL8EbSJ/gO+DFfPBQpH0=
+
+Name: assets/www/plugins/network.js
+SHA1-Digest: yHOOrFOuVD/dLZFW9Ccb/Uh17yw=
+
+Name: assets/www/bower_components/hammerjs/hammer.min.map
+SHA1-Digest: aFKmt3jzBpszoKvxu7Pzz/RQI0A=
+
+Name: assets/www/plugins/countly.js
+SHA1-Digest: L2VTnVs0vgiJ9aQkBGynp4oAjKI=
+
+Name: assets/www/html/Cheques/Cheque_Request_View.html
+SHA1-Digest: iPMbp+JQNx5uEVrksXX5B/5w3FI=
+
+Name: assets/www/font/HelveticaNeue_Med.woff
+SHA1-Digest: laBOK8tVTLKie+BwLh05B+kWpZc=
+
+Name: res/drawable/icon.png
+SHA1-Digest: 2aScfxTIOIc5tsv3QYqF9APMSIg=
+
+Name: assets/www/font/diamond.woff
+SHA1-Digest: 1NvxacZZRjQ1kQQRqo5hAXL0yaM=
+
+Name: assets/www/bower_components/jquery-hammerjs/jquery.hammer-full.m
+ in.map
+SHA1-Digest: pMyfkI+aviYdjFfXoonx88iIQqA=
+
+Name: assets/www/js/views/ReRegister/ReRegister_View.js
+SHA1-Digest: TTqTNeVe4kKa/NWYm56+RdknlTc=
+
+Name: assets/www/bower_components/backbone/package.json
+SHA1-Digest: AUEBWLp0cLJUxjZO2n+kp9l/liY=
+
+Name: assets/www/bower_components/font-awesome/scss/_bordered-pulled.s
+ css
+SHA1-Digest: 55FoxUqdHBcyvqOZ6tLBuPVIl4I=
+
+Name: assets/www/js/views/Transfer/Add_Beneficiary_FX_Transactions_Vie
+ w.js
+SHA1-Digest: AuyxUrwZbd/ZZPYx07HxK2QUC0I=
+
+Name: assets/www/images/expired.png
+SHA1-Digest: iTSBzi+i2OMzsfDe1ONmR/MDxdM=
+
+Name: assets/www/bower_components/requirejs-plugins/README.md
+SHA1-Digest: qE+GBve3IlVnApG+WAA4zDSgwDY=
+
+Name: assets/www/bower_components/requirejs-text/text.js
+SHA1-Digest: A3JiQyvW5l2ykixm8AiB1Ys3U1M=
+
+Name: assets/www/bower_components/jquery-hammerjs/bower.json
+SHA1-Digest: LAHZQYXZTb8SzreM63qaPGuePCU=
+
+Name: assets/www/bower_components/font-awesome/less/bordered-pulled.le
+ ss
+SHA1-Digest: BGm0MM0VZxRbqACyJTdYi+LRk00=
+
+Name: assets/www/html/Bills/Fuel_Voucher_View.html
+SHA1-Digest: HvLVPILlkTNMV4Nwvn/KzRM7yMY=
+
+Name: res/drawable-hdpi-v4/ic_action_previous_item.png
+SHA1-Digest: 22hOl4hxhbk+vXL5yh1q/sikcuo=
+
+Name: assets/www/base/html/Base_Page_View.html
+SHA1-Digest: bnUMs2sJ8vfbbDwotzudlo2hO1Y=
+
+Name: assets/www/bower_components/requirejs-plugins/src/async.js
+SHA1-Digest: RQc6YlNyCRic/lsWIj2SJNK8Plw=
+
+Name: assets/www/base/js/Base_Navigation_View.js
+SHA1-Digest: oe9a/wWkkfwi3QP+1GlHO2SsCMU=
+
+Name: assets/www/js/views/Life/Life_Success_View.js
+SHA1-Digest: 2DUdQaEnbt3RIUmqGSDGaepvXSQ=
+
+Name: assets/www/html/Contact_Us/Contact_Us_View.html
+SHA1-Digest: uTschJ/33vS44wgAgPgLabuZPvU=
+
+Name: assets/www/js/views/Forgot_Pwd/Forgot_Pwd_View.js
+SHA1-Digest: oBMbsrp5RfyYeu077VE9v7wgZnU=
+
+Name: assets/www/js/views/Bills/Bills_Success_View.js
+SHA1-Digest: S49D0iXWUoLTM9BHuTLJCVB1Rq8=
+
+Name: assets/www/font/flaticon.ttf
+SHA1-Digest: /WBLaUxb+Z26eAYLmIuo7aDN/34=
+
+Name: assets/www/plugins/xml2json.js
+SHA1-Digest: wzETAtUo3wXj5GhhqaqD10xQ9bA=
+
+Name: assets/www/bower_components/font-awesome/less/mixins.less
+SHA1-Digest: 88ijeXBXHDZd7rhiVupi+DQuBpU=
+
+Name: assets/www/plugins/maps.js
+SHA1-Digest: hr3paXwUG0UrDQvEFdiatrmbePY=
+
+Name: assets/www/plugins/beacon.js
+SHA1-Digest: tgLT4Nc89hHanPnagoMMec0lrBc=
+
+Name: assets/www/bower_components/requirejs-text/README.md
+SHA1-Digest: 7vQx7ihOACP6YKHdGhM8n6y4ejQ=
+
+Name: assets/www/bower_components/font-awesome/scss/_icons.scss
+SHA1-Digest: XiMGR16Gdtze86BZE/UwlSeCSSM=
+
+Name: assets/www/images/calendar-fade-right.png
+SHA1-Digest: nr7HEzdnRRTTqOMgBsdeAWGfTBk=
+
+Name: assets/www/plugins/banks.js
+SHA1-Digest: 0g15md2M16iO3LTKf+Hh6xjakdM=
+
+Name: assets/www/html/Bills/Bills_Product.html
+SHA1-Digest: LuoiX/O7e+b2emU9QJD181RgucI=
+
+Name: assets/www/plugins/date.format.js
+SHA1-Digest: TIH9Tx0H/4mX+Y3Uxa1BtVh6SGI=
+
+Name: assets/www/html/Controls/Beneficiaries_List_Item.html
+SHA1-Digest: +CHXcfkPOPu1U1FwG6hNE+wfgno=
+
+Name: assets/www/html/Life/Tripican/Movie_Details_View.html
+SHA1-Digest: e0m5qgVIj4oQLGa4BYKWQXUZv3E=
+
+Name: assets/www/bower_components/jquery/src/traversing/var/rneedsCont
+ ext.js
+SHA1-Digest: 3wZcl4OUfDvJ+oBCIq/lrYsU4ok=
+
+Name: assets/www/js/views/Transfer/Transfer_To_Diamond_Bank_Accounts_V
+ iew.js
+SHA1-Digest: ktJNzlsrKGgPw7k6IwNdqxHSjL8=
+
+Name: assets/www/js/views/Share/Share_View.js
+SHA1-Digest: bTRG5E/bbVvj48MsbMlNnu39xKE=
+
+Name: assets/www/bower_components/font-awesome/fonts/fontawesome-webfo
+ nt.woff
+SHA1-Digest: Vs4T5xwhUNgbyXKUBYSRUYG9YIE=
+
+Name: assets/www/bower_components/jquery/src/css/support.js
+SHA1-Digest: DueOMcJWpO6YFui7DMnH1lYbpkY=
+
+Name: assets/www/html/Cheques/Card_dc_View.html
+SHA1-Digest: NpYCHJrGSHW+PY53l2PaFsiyJa0=
+
+Name: assets/www/html/Forgot/Forgot_View.html
+SHA1-Digest: jfVo0jeXEaQXzp8S6PljiEngr74=
+
+Name: res/drawable-xhdpi-v4/push_icon.png
+SHA1-Digest: vRH7uhmTKidbmsOOZlkBaE0tq+8=
+
+Name: assets/www/html/Transfers/Transfer_To_Own_Accounts_View.html
+SHA1-Digest: 6LMrVVVp4PiD3YiI03jWlOYHOIM=
+
+Name: assets/www/bower_components/jquery/src/ajax.js
+SHA1-Digest: Cu6veDF8fOEGjmI2jeiSrrY3UDs=
+
+Name: assets/www/bower_components/jquery-hammerjs/LICENSE.md
+SHA1-Digest: zLw4pITp6OoyRPgYDj7E1Y30+EU=
+
+Name: assets/www/plugins/cordova-plugin-camera/www/Camera.js
+SHA1-Digest: oIhRMPF+/R1Vyb0bC8t7+HtA1Yo=
+
+Name: assets/www/plugins/cordova-plugin-inappbrowser/www/inappbrowser.
+ js
+SHA1-Digest: sDrNn1nb6Y917+yWVFcK+TD2xUo=
+
+Name: assets/www/plugins/cordova-plugin-dialogs/www/notification.js
+SHA1-Digest: p8ZuSuooY9gm+YEuH5uNFvs5NIo=
+
+Name: assets/www/bower_components/hammerjs/CONTRIBUTING.md
+SHA1-Digest: +bykamnIWAsXPcVdTDzQ0AgB4wI=
+
+Name: assets/www/bower_components/jquery/src/css/var/getStyles.js
+SHA1-Digest: 0C0PbipvX8MRQSblymyZAG4/VUQ=
+
+Name: assets/www/html/Expired_View.html
+SHA1-Digest: Yv7CADLzUyn50WXKE1kbjv/uzck=
+
+Name: assets/www/bower_components/underscore/bower.json
+SHA1-Digest: AxCA1IK7k5kZRdPJx5J1PZ+bVkg=
+
+Name: assets/www/base/html/Base_Calendar_View.html
+SHA1-Digest: y1kjYJVKGD/lM/vEsmP+Mdab/J8=
+
+Name: assets/www/html/Life/Wakanow/Wakanow_Book_View.html
+SHA1-Digest: pZGNilED4ar/h9QfDqRbomZqb94=
+
+Name: assets/www/plugins/cordova-plugin-network-information/www/networ
+ k.js
+SHA1-Digest: 3buNvk87mUwxh0uutgW1X7E45c4=
+
+Name: assets/www/bower_components/hammerjs/hammer.min.js
+SHA1-Digest: 4lMd3WqaljXOdZDMUt9ANG7LNQc=
+
+Name: assets/www/bower_components/jquery/src/var/concat.js
+SHA1-Digest: ORYPIxQ5asv06Wv9UTqWCCsnKqQ=
+
+Name: assets/www/bower_components/requirejs/bower.json
+SHA1-Digest: 4OnIX24ScrcJtffYNdJAX9mD7sc=
+
+Name: res/drawable-land-mdpi-v4/screen.png
+SHA1-Digest: F4DEuCYDtCdKc40IDDSPUmZ0MXs=
+
+Name: assets/www/js/views/Cheques/Cheque_Stop_View.js
+SHA1-Digest: rDCUwVwXSQZ6CxURigjwQFuh4Y4=
+
+Name: AndroidManifest.xml
+SHA1-Digest: tmh/xwFCARqeasoKFD0pdKAlaqw=
+
+Name: assets/www/bower_components/jquery/bower.json
+SHA1-Digest: k1pvShnBhtFQi5h2BnSNHBL0z7w=
+
+Name: assets/www/bower_components/jquery/src/ajax/parseXML.js
+SHA1-Digest: zFRccq86Hq1inaA5tvxnR9Treo8=
+
+Name: assets/www/bower_components/underscore/underscore.js
+SHA1-Digest: /F5GFKEJ6fivKJD98lQO255KZqU=
+
+Name: assets/www/html/Bills/Bills_Mobile_Beneficiary_Item.html
+SHA1-Digest: D2RZfJaGjqFyv3pMnfnigPfCTu8=
+
+Name: assets/www/html/Forgot_Banking_ID/Forgot_Banking_ID_View.html
+SHA1-Digest: Q5mGeau/72MCCeweRnE4tPZaLuA=
+
+Name: assets/www/js/views/Life/Tripican/Ticketing_View.js
+SHA1-Digest: C9fVY7j1lphyaPfrR8OcMa9Kvoo=
+
+Name: res/xml/config.xml
+SHA1-Digest: B6fOiskaaFBVn8qPRXD/Cu5EwH4=
+
+Name: assets/www/html/Transfers/Transfer_To_Diamond_Bank_Accounts_View
+ .html
+SHA1-Digest: +WsV479lNS8NjLwMXVyQL/86b2I=
+
+Name: assets/www/html/Transfers/Add_Beneficiary_FX_Transactions_View.h
+ tml
+SHA1-Digest: 37ZjKRLmBSk06NRiv2g7SHLIpPU=
+
+Name: assets/www/html/Life/Tripican/Places_Item.html
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: assets/www/html/ReRegister/ReRegister_View.html
+SHA1-Digest: JXUBPZSMt/I5I/0k8nIH8IGIy3s=
+
+Name: assets/www/main.js
+SHA1-Digest: SDGMi6Gk3vRq6pWI5JUiO+8E678=
+
+Name: assets/www/html/Transfers/currencyCode.html
+SHA1-Digest: vaR1B1xW0i4GS4T2DNPzMLHZkxQ=
+
+Name: assets/www/base/js/Base_Pull_To_Request_View.js
+SHA1-Digest: cAaHBr9lmChb6anIhDV0k25gXUg=
+
+Name: assets/www/js/views/App_Navigation_View.js
+SHA1-Digest: 6wjzbHLPPkb1+10NVhr8eLBjYo4=
+
+Name: assets/www/bower_components/backbone/CNAME
+SHA1-Digest: U14vip0diDj+25eaoCmc9RjCIr8=
+
+Name: assets/www/html/Controls/Banks_List_Item.html
+SHA1-Digest: IHQYjCrSoV7JCLCwjytG0fSRiiE=
+
+Name: res/drawable-xhdpi-v4/ic_action_remove.png
+SHA1-Digest: l5JGHVyNioatN5tnVH3EIvs4nRA=
+
+Name: assets/www/plugins/cordova-plugin-contacts/www/contacts.js
+SHA1-Digest: SYVUGkiWIkHmH1KHa2xiyI1q3bs=
+
+Name: assets/www/bower_components/jquery/src/exports/amd.js
+SHA1-Digest: Hoi4VWaueX/0FwCwRh2Ya4RkP5g=
+
+Name: assets/www/js/views/Accounts/Statement_View.js
+SHA1-Digest: pFuk7obGu9LUSFtm+8S4IC3vHfI=
+
+Name: res/drawable-hdpi-v4/ic_action_next_item.png
+SHA1-Digest: qB37IvvoMeEjuZF5lSzNL1atssw=
+
+Name: assets/www/bower_components/font-awesome/scss/_list.scss
+SHA1-Digest: S1PuAVE9+LnOdkQrLY8YUWE6Q1w=
+
+Name: assets/www/html/Life/Tripican/Ticket_Amount_Item.html
+SHA1-Digest: Yujv7ecXUuih7VSvFryD6hcrFII=
+
+Name: assets/www/js/views/Life/Afritickets/Afritickets_Event_View.js
+SHA1-Digest: dcAXkHTLSadMRuA2BNcB4B9nLz0=
+
+Name: assets/www/font/helvetica-neue-bold.woff
+SHA1-Digest: SirQ4uso8qibTgNvC1nyRZnrU44=
+
+Name: assets/www/images/transfer-loader-new.png
+SHA1-Digest: gOi70I24F1N5A3X5be13CZmBJxg=
+
+Name: assets/www/cordova.js
+SHA1-Digest: riVJpPGiql6epmFLVkk/v+j5FQM=
+
+Name: assets/www/html/Transfers/Diamond_Money_Transfer_View.html
+SHA1-Digest: NsMasXJNCmJ4cAex2yGA7x7Cqqg=
+
+Name: res/drawable-land-xhdpi-v4/screen.png
+SHA1-Digest: Prcjrz39IW7YIAYyZ8oaaFC4+Rk=
+
+Name: assets/www/data/fcyCodes.js
+SHA1-Digest: GiqFSrAjA7nWSu00fIwEtLT42EE=
+
+Name: assets/www/js/views/Cheques/Card_Success_View.js
+SHA1-Digest: IxnVOphRH/JIJrboJ+ck3sL7a2E=
+
+Name: assets/www/js/views/Life/Wakanow/Wakanow_Terms_View.js
+SHA1-Digest: EhMzerhlVo6znB5URmWfH8eKjkA=
+
+Name: assets/www/font/diamond.eot
+SHA1-Digest: O+T1blawfowBjmcxV9mf1eLL7nY=
+
+Name: assets/www/html/Cheques/Card_Success_View.html
+SHA1-Digest: fAjRC992fhqznuvNJzs5Wx//WP0=
+
+Name: assets/www/js/views/Cheques/Card_cc_View.js
+SHA1-Digest: 1O2hHUHsgI3yk8N40DoakP0jeiE=
+
+Name: assets/www/plugins/debugLog.js
+SHA1-Digest: mSnpWpywJ8aPKn9i+75xrDdobps=
+
+Name: assets/www/html/Notification/Notification_View.html
+SHA1-Digest: 9Jd1i/YOLb4mVNrUd9pF1Mob774=
+
+Name: assets/www/bower_components/jquery/src/sizzle/dist/sizzle.min.js
+SHA1-Digest: e1YyQNfeT6qj5vZuX/ql64pfT/Q=
+
+Name: assets/www/js/views/Register/Register_Terms_View.js
+SHA1-Digest: NSE5bDSGOgEfz78Ky0PNTGvX/ow=
+
+Name: assets/www/data/countries-int.js
+SHA1-Digest: dxuRYvgg2lAwyGNBS0TLj+CZWTI=
+
+Name: assets/www/bower_components/font-awesome/scss/_rotated-flipped.s
+ css
+SHA1-Digest: ygigrz2mPC8qfTwnqHR2N3RMx4U=
+
+Name: assets/www/bower_components/requirejs/require.js
+SHA1-Digest: 2EEx8+mEIqSaqR1Ph8+WskVybZY=
+
+Name: assets/www/images/calendar-fade-left.png
+SHA1-Digest: bEUE/rOUS0X1AiGyLx7BnMkK8Vg=
+
+Name: assets/www/images/sign-in-banking-bg-footer-bar.png
+SHA1-Digest: 6UniaCGKmMBaMBQoSrF9vvsGlkE=
+
+Name: assets/www/html/Controls/Airports_List_Item.html
+SHA1-Digest: yCBDCR6vUtb1OTLoGx96yjHIkIY=
+
+Name: assets/www/plugins/cordova-plugin-splashscreen/www/splashscreen.
+ js
+SHA1-Digest: 50vo6m10qL1ya4KPN6tgheUHH8Y=
+
+Name: assets/www/bower_components/jquery/src/data/accepts.js
+SHA1-Digest: oqFUD+/cVWFskdET8vSMlYJDKBE=
+
+Name: assets/www/html/Bills/Bills_Category.html
+SHA1-Digest: hE5mYt65m6yoHzci6XggMLRkEKs=
+
+Name: assets/www/plugins/cordova-plugin-device/www/device.js
+SHA1-Digest: uUPIrvMa3RcMIaDNyU2jJ6U8tOs=
+
+Name: assets/www/bower_components/font-awesome/fonts/fontawesome-webfo
+ nt.svg
+SHA1-Digest: JrscXvEAoc1xkj8dXcKfx5fvRjk=
+
+Name: assets/www/html/Bills/Bills_View.html
+SHA1-Digest: 4glsPGw17q2hfuud78WUccP37U8=
+
+Name: assets/www/js/views/Transfer/Transfer_To_Other_Bank_Accounts_Vie
+ w.js
+SHA1-Digest: BCAN0B1bcg1JRcftQv25G+bgFfo=
+
+Name: assets/www/img/logo.png
+SHA1-Digest: MW0GF0+VJyF3L6n2kH6NKUswUL0=
+
+Name: assets/www/js/views/Bills/Add_Beneficiary_Airtime_View.js
+SHA1-Digest: CfG3MttbA87VubpBSIwLyxNIEZs=
+
+Name: res/drawable-land-hdpi-v4/screen.png
+SHA1-Digest: HG/MRdRhjwZN4UMJxo9ogbh6Ko8=
+
+Name: assets/www/bower_components/hammerjs/README.md
+SHA1-Digest: 9hBZGgmZeyLzvvNTwcSqsV5mD2A=
+
+Name: assets/www/bower_components/font-awesome/fonts/fontawesome-webfo
+ nt.woff2
+SHA1-Digest: EHUjFlD1eZVZBbsvZScUio4rSxY=
+
+Name: assets/www/plugins/md5.js
+SHA1-Digest: Fcwr/D6fqkxJrT1Ko1nFshaVxEE=
+
+Name: assets/www/bower_components/jquery/src/core/var/rsingleTag.js
+SHA1-Digest: UiDW+tLQEl8NQBjrbvOKXzccjQI=
+
+Name: assets/www/bower_components/font-awesome/less/animated.less
+SHA1-Digest: Qh8sThAZHxSME7ijTl/z9ITUw5M=
+
+Name: assets/www/bower_components/font-awesome/less/path.less
+SHA1-Digest: RxCPEYtqlkN3S3GN1MVvTIHOaBs=
+
+Name: assets/www/bower_components/requirejs/README.md
+SHA1-Digest: wAAPWdNLfkvYhN6uDwLKTBh+pg8=
+
+Name: assets/www/base/js/Base_Page_View.js
+SHA1-Digest: fiJcTspRBu/1JPr1xsCGaKz4hkM=
+
+Name: assets/www/bower_components/underscore/component.json
+SHA1-Digest: R35A8RX597G9pOKlwwS0uxZ77E8=
+
+Name: assets/www/base/js/Base_Calendar_View.js
+SHA1-Digest: 67+o9Ho7/R05UkRpIAWH+l3ZR/w=
+
+Name: assets/www/html/Life/Tripican/Showing_Today_View.html
+SHA1-Digest: HBaUzYdUPh6ANY77QxyJem23tFQ=
+
+Name: assets/www/bower_components/jquery/src/sizzle/dist/sizzle.min.ma
+ p
+SHA1-Digest: e+PIUqId07HfXYkHVNChA15yTRw=
+
+Name: assets/www/bower_components/jquery/src/attributes/classes.js
+SHA1-Digest: kBcz5WAFE+BOM8VSCciZddr4PTw=
+
+Name: assets/www/js/views/Transfer/Transfer_Success_View.js
+SHA1-Digest: wr5tjIifYK3jR9+A8lX9wfkQU7E=
+
+Name: assets/www/images/transfer-loader.png
+SHA1-Digest: e6Exn8zIndjOXNw/i+1n6xblO1I=
+
+Name: assets/www/bower_components/jquery/src/data/var/data_priv.js
+SHA1-Digest: MTh+ZKP/UMibLpKVPAciLq1EXH0=
+
+Name: res/drawable-port-xhdpi-v4/screen.png
+SHA1-Digest: CdggMzjY2dAlxQhoh/+f6hPz98k=
+
+Name: assets/www/bower_components/jquery/src/wrap.js
+SHA1-Digest: ELJCDCIkxdm2tR9vlD1epDR/gMQ=
+
+Name: assets/www/plugins/cordova-plugin-whitelist/whitelist.js
+SHA1-Digest: LhPJehMZoBACH/WKPQVj+FjkRRI=
+
+Name: assets/www/js/views/Map/Map_View.js
+SHA1-Digest: Mw24s/A9Bx2KEik4pLNTFMRSqDA=
+
+Name: assets/www/html/Life/Afritickets/Afritickets_Categories_List_Ite
+ m.html
+SHA1-Digest: hp/zXHzlC9ws4WJBKljy6XgL2lo=
+
+Name: assets/www/bower_components/jquery/src/var/arr.js
+SHA1-Digest: htTGv7klXvsQmXW6vXdp8UKJJP0=
+
+Name: assets/www/js/views/Life/Wakanow/Wakanow_Book_View.js
+SHA1-Digest: ltpfTD51Rpd11oUsoMqaHe2aNRc=
+
+Name: assets/www/bower_components/font-awesome/scss/_fixed-width.scss
+SHA1-Digest: IkQXyiZsZXhJr7K7y23EVYlP84c=
+
+Name: assets/www/js/views/Cheques/Cheques_View.js
+SHA1-Digest: hY8Yv2d00pwBMZ0+UEBfjGWBn64=
+
+Name: assets/www/bower_components/jquery/src/deferred.js
+SHA1-Digest: Q0sGNxmAMWCeoxnsuj0JjzyuP6U=
+
+Name: assets/www/html/Life/Tripican/Ticket_Payment_View.html
+SHA1-Digest: GJybm3xu9E3YKeHuMxYLsMftSEk=
+
+Name: assets/www/js/views/Branches/Branches_View.js
+SHA1-Digest: Oz69Z5+ISmWBKt891moX7Sz+rng=
+
+Name: assets/www/images/transfer-success.png
+SHA1-Digest: 9JrMuRFNLcr1G58KG4cwO4HFrPk=
+
+Name: assets/www/html/Cheques/Cheques_View.html
+SHA1-Digest: DAP3QPnnuH/aurOXf4sQDlZllDI=
+
+Name: assets/www/plugins/cordova-plugin-contacts/www/Contact.js
+SHA1-Digest: vCnrX889EmqH4GY7rP8zMmZwxW4=
+
+Name: assets/www/bower_components/jquery/src/css/hiddenVisibleSelector
+ s.js
+SHA1-Digest: N7H5Yozh9jAS/mtSucjjTD+IRQM=
+
+Name: assets/www/html/Accounts/Accounts_View_History_Item.html
+SHA1-Digest: VHRwmcEZkhgJBI7bzmCByEO688Q=
+
+Name: assets/www/html/Accounts/Transaction_Details_View_Content.html
+SHA1-Digest: Z3yyG9Wml1ySdB1k9iFv2Ju1XcU=
+
+Name: assets/www/bower_components/font-awesome/css/font-awesome.css
+SHA1-Digest: IUiz3dylT0E+i6UKpItTtAC9mbg=
+
+Name: assets/www/bower_components/jquery/src/var/toString.js
+SHA1-Digest: yQCMjD7ZzhbRTUyAd6V9IBciEbY=
+
+Name: assets/www/js/views/Life/Tripican/Ticket_Payment_View.js
+SHA1-Digest: qSfYuvBlj7/5Ukur44vfYTvFwts=
+
+Name: assets/www/plugins/cordova-plugin-camera/www/CameraPopoverOption
+ s.js
+SHA1-Digest: emjMfZs1wpDkm0pRxqGIU5NeXfU=
+
+Name: assets/www/bower_components/jquery/src/effects.js
+SHA1-Digest: /0lLqcQjRAKoEi2Qe1jbR7KmE30=
+
+Name: assets/www/html/Forgot_Pwd/Forgot_Pwd_View.html
+SHA1-Digest: OuN1KiwuPab1FJYDMMlTefyckho=
+
+Name: assets/www/index.html
+SHA1-Digest: FzGHt/4ieCU+w+vaRLBOj+osN/w=
+
+Name: assets/www/css/icons.css
+SHA1-Digest: 5JwqeWFA4YlhnJl1f+NiUrrWq5c=
+
+Name: assets/www/images/request-Successful.png
+SHA1-Digest: 7uyzlcg9TVr764vdEG6f18/S3eI=
+
+Name: assets/www/bower_components/jquery/src/ajax/load.js
+SHA1-Digest: OPoMsEY94cKemtzFLDSk++Xplac=
+
+Name: assets/www/plugins/cordova-plugin-network-information/www/Connec
+ tion.js
+SHA1-Digest: IjNQMCVJs/aQ+txQjQZhhW2PL4Y=
+
+Name: assets/www/bower_components/backbone/index.html
+SHA1-Digest: Mfo3WKu8Xw6XzbXDahS8H41+cII=
+
+Name: assets/www/font/diamond.svg
+SHA1-Digest: vd9fg2NV5xayibfsVG+6leEgML0=
+
+Name: assets/www/bower_components/jquery/src/offset.js
+SHA1-Digest: KsJ+1rcKTSJ0TKG0GCja2se4oOQ=
+
+Name: assets/www/html/Life/Tripican/Movie_Showtimes_Item.html
+SHA1-Digest: dah/EIjSA9kIMsXaZw/iDoJHyrU=
+
+Name: assets/www/bower_components/font-awesome/less/variables.less
+SHA1-Digest: a01qdNVJHsZnwd336xmzTq1GlH8=
+
+Name: assets/www/html/Bills/Bills_History_list.html
+SHA1-Digest: vSanwci9+4TC4iNfAgcqTGfFbpY=
+
+Name: res/drawable-ldpi-v4/push_icon.png
+SHA1-Digest: TDv0enpL1Suoz2mqXJKUEtg1Axo=
+
+Name: assets/www/plugins/hmac-sha256.js
+SHA1-Digest: +9mtoQHkbLyRRJEzP+XC9DAi0vU=
+
+Name: assets/www/bower_components/font-awesome/less/stacked.less
+SHA1-Digest: 8EQHe8i+GpicJFJU6B6whNUtKac=
+
+Name: assets/www/bower_components/jquery/src/css/var/rnumnonpx.js
+SHA1-Digest: U/NgYVabrllkW+CDe0o8M48pNdQ=
+
+Name: assets/www/bower_components/jquery/src/var/rnotwhite.js
+SHA1-Digest: IBV+5uzgSZrCI+caSQzI+sKYVlA=
+
+Name: assets/www/bower_components/jquery/src/css/var/rmargin.js
+SHA1-Digest: eoeobUseawWpjt5z6CAIsqzmaDQ=
+
+Name: assets/www/js/views/Life/Tripican/Movie_Details_View.js
+SHA1-Digest: Ln7erboCruIp52Elb1Qxv1Sbuyc=
+
+Name: assets/www/bower_components/font-awesome/fonts/fontawesome-webfo
+ nt.ttf
+SHA1-Digest: kIgUOxmXl3myEWzvOLZh9y2YLhk=
+
+Name: assets/www/images/transfer-lockicon.png
+SHA1-Digest: 0M/BznGIyfpa9cZMR2HV2bYiyIQ=
+
+Name: assets/www/bower_components/font-awesome/scss/_mixins.scss
+SHA1-Digest: m1kccwujAhbSfBOrdx8pOXYYeMg=
+
+Name: assets/www/font/flaticon1.svg
+SHA1-Digest: KxJMUO63M2MmGIZMMbUIXyUjCAs=
+
+Name: assets/www/bower_components/backbone/index.js
+SHA1-Digest: 1Cke9rrCVB04hl9qWAikajMVYZI=
+
+Name: assets/www/js/views/Bills/Smile_View.js
+SHA1-Digest: kCZxAZ0xhEoHGjjYCeb2TSiArIg=
+
+Name: assets/www/bower_components/jquery/src/event/support.js
+SHA1-Digest: cjtgqHUnuVd2fXBh+KffSJBtJvc=
+
+Name: assets/www/bower_components/jquery/src/css/var/isHidden.js
+SHA1-Digest: ZfUgmMbHpK1My+Iw1SCjx+uYtOU=
+
+Name: assets/www/js/views/Profile/Change_Password_View.js
+SHA1-Digest: 5teNxU93bP7+Ms01joKeqgr2YHQ=
+
+Name: assets/www/bower_components/jquery-hammerjs/jquery.hammer-full.m
+ in.js
+SHA1-Digest: YjJSFjvk6OF5cOkbePVmRJCUduM=
+
+Name: assets/www/bower_components/underscore/README.md
+SHA1-Digest: +xPu00MU6QFwvmKQh2qaZsQFEnI=
+
+Name: assets/www/js/views/Bills/Fuel_Voucher_View.js
+SHA1-Digest: 4jbAhyN8nLFnIxvA+xU+Ck9qNYo=
+
+Name: res/drawable-mdpi-v4/ic_action_next_item.png
+SHA1-Digest: I11kR9J8D1ym6/6IDHX2g/nVzNc=
+
+Name: assets/www/base/html/Base_Switcher_View.html
+SHA1-Digest: Ujv3mRCOAM5RJqy1xo5J2ZVk3dg=
+
+Name: assets/www/bower_components/jquery/src/css.js
+SHA1-Digest: ekRfRnJafqIwzkk4hK7KNqZxfoI=
+
+Name: assets/www/js/views/Forgot/Forgot_View.js
+SHA1-Digest: 4VIdFHsrH7SNBlZZPe3e4hV0bso=
+
+Name: assets/www/html/Profile/Reset_Pin_View.html
+SHA1-Digest: 7oWeFUFuDynGsesF+8XWzlrLXgQ=
+
+Name: assets/www/html/Accounts/Accounts_View.html
+SHA1-Digest: 8CNylbW7vL3WnHbgzrWfuMZAAGU=
+
+Name: assets/www/bower_components/hammerjs/plugins/hammer.fakemultitou
+ ch.js
+SHA1-Digest: zFAQH1gKhCXpJaZ6h4O+G8v13j0=
+
+Name: assets/www/bower_components/backbone/CONTRIBUTING.md
+SHA1-Digest: Hzb9GsCdiA8YqEoKreYzAxJTpGo=
+
+Name: assets/www/bower_components/jquery/src/ajax/parseJSON.js
+SHA1-Digest: 1/JEAHyIHk/Lh/rP3FPpjdA+2JM=
+
+Name: assets/www/html/Transfers/Transfer_Success_View.html
+SHA1-Digest: NgD1kh7rySidWUbeyTWOgotGQyw=
+
+Name: assets/www/config.xml
+SHA1-Digest: orz69UZajQtxoTSOlbkcPfVNYUo=
+
+Name: assets/www/js/views/Transfer/Transfer_View.js
+SHA1-Digest: 9fTuv7UCL9kcf9SI0tEbOZujah4=
+
+Name: assets/www/bower_components/jquery/src/var/class2type.js
+SHA1-Digest: 2kRBRMQ3nk2gEA5/jUwMXwbQUgg=
+
+Name: assets/www/html/Life/Wakanow/Wakanow_Book_View_Passenger.html
+SHA1-Digest: IKG9A5cebaIS0Opi47vW8hhp0EY=
+
+Name: assets/www/bower_components/jquery/src/ajax/var/rquery.js
+SHA1-Digest: fTnOYKF+eW7+ZUoEIeyXEN/47lY=
+
+Name: assets/www/plugins/push.js
+SHA1-Digest: 6gMvJCY+5nhJqfdmDD1QNzIkyic=
+
+Name: assets/www/bower_components/hammerjs/bower.json
+SHA1-Digest: n3CIoSzc3KDj5aVL5El3wmors5s=
+
+Name: assets/www/js/views/Cheques/Cheque_Request_View.js
+SHA1-Digest: vBeLaOD38xlTxfstFHCw/WcYSGU=
+
+Name: res/drawable-xxhdpi-v4/ic_action_previous_item.png
+SHA1-Digest: O6f3A1T4xOSQqVUldAFPWs1Ax2I=
+
+Name: res/drawable-port-ldpi-v4/screen.png
+SHA1-Digest: H2Djz0JJ+5f6KUNLtKhWjKOx/kY=
+
+Name: assets/www/bower_components/jquery/dist/jquery.js
+SHA1-Digest: jVWqvyt2SGzDEf3FU6NhPK1Gqj8=
+
+Name: assets/www/bower_components/jquery/src/attributes/val.js
+SHA1-Digest: xbKUZI/bY0qsSuYTKCC1sx2hwe8=
+
+Name: assets/www/data/banks.js
+SHA1-Digest: GHY8+2qBjfVllm0hgcWPz+tD5l0=
+
+Name: assets/www/bower_components/jquery/src/callbacks.js
+SHA1-Digest: rzOwLvPJSa+RbrRhYs9lPIudQOE=
+
+Name: assets/www/plugins/cordova-plugin-contacts/www/ContactFieldType.
+ js
+SHA1-Digest: bdnECaPXdpmovUKosIphFNc1WZQ=
+
+Name: assets/www/bower_components/jquery/src/core/parseHTML.js
+SHA1-Digest: jcG3MFEKKg2sxgcAIH0GFtwZA2c=
+
+Name: assets/www/bower_components/font-awesome/less/icons.less
+SHA1-Digest: knXN2/oN6BTiEBunEsNsbTrQfbk=
+
+Name: assets/www/bower_components/jquery/src/css/defaultDisplay.js
+SHA1-Digest: BkuT8i8k8ZeYVXLesCBYlRe425M=
+
+Name: assets/www/html/Accounts/Account_list_View.html
+SHA1-Digest: ZFL/uMkWrUk3YYxgdOh1XAF0CxA=
+
+Name: assets/www/bower_components/requirejs-plugins/bower.json
+SHA1-Digest: xHBCMEORkOyos/92CEH36874RkE=
+
+Name: assets/www/bower_components/jquery/src/core/ready.js
+SHA1-Digest: LBcKmniflwYv91WMMZxYBzpum/c=
+
+Name: assets/www/html/Accounts/Statement_View.html
+SHA1-Digest: famfPm49dcx3xggag+L/8bDBdp4=
+
+Name: assets/www/plugins/cordova-plugin-contacts/www/ContactName.js
+SHA1-Digest: 9KIEEi8+Fohy0UisukDIeaYJGUU=
+
+Name: assets/www/css/app.css
+SHA1-Digest: ZGYc+wOZUShlBOS0zIABgQdTr4E=
+
+Name: assets/www/images/diamond-watermark.png
+SHA1-Digest: 4dT4MM4uYAFEhxLKiiAtyKiXMFU=
+
+Name: assets/www/bower_components/backbone/bower.json
+SHA1-Digest: wXGU2/LQQ1GjB31xvsFGb5kRY5k=
+
+Name: assets/www/bower_components/jquery/src/manipulation.js
+SHA1-Digest: ZV2Ax/F6+jFK2jF+aFwRo02egHM=
+
+Name: assets/www/bower_components/font-awesome/scss/_stacked.scss
+SHA1-Digest: z2dS7mCa826yk6cZfIjTHsrLvHQ=
+
+Name: assets/www/bower_components/jquery/src/manipulation/support.js
+SHA1-Digest: mkDrumzcK7l1fLGVt5e0RGab5fs=
+
+Name: assets/www/font/flaticon1.woff
+SHA1-Digest: Whzbt/Ct0nYH+7Fqy4XC/PjgaYg=
+
+Name: assets/www/js/views/Forgot_Banking_ID/Forgot_Banking_ID_View.js
+SHA1-Digest: t9IP+MhM1mvr9S+marxn5ftEgVQ=
+
+Name: assets/www/font/flaticon.woff
+SHA1-Digest: 69W61wNMEIBu72jRmVygWRNNGIk=
+
+Name: assets/www/font/diamond.ttf
+SHA1-Digest: UKF+njtqBrK28kIc9reqp020qCU=
+
+Name: assets/www/images/transfer-loader-old.png
+SHA1-Digest: erbh9kNN+SI2Xl4/vGM9ZWdMw3A=
+
+Name: assets/www/images/icon.png
+SHA1-Digest: 1Mpwj2BwIWwhn8xJEJyX29i+iyA=
+
+Name: assets/www/html/Life/Wakanow/Wakanow_Search_View.html
+SHA1-Digest: DqlyPlRqVZL+y9fImyNve6EPZ4Q=
+
+Name: assets/www/html/Bills/Bills_Success_View.html
+SHA1-Digest: Ljw2AENgvawL1CDZ76gs4sF2qi0=
+
+Name: assets/www/bower_components/underscore/LICENSE
+SHA1-Digest: SlNgBimdIZhD9p+H7KxLUhWLPvw=
+
+Name: assets/www/cordova_plugins.js
+SHA1-Digest: HLqyeg5zbdVRNyUcu5wK4IzF/gw=
+
+Name: assets/www/html/Accounts/Account_Overview_View.html
+SHA1-Digest: E3S9snK0ORnXlmx1tT3/eA6avwY=
+
+Name: assets/www/data/airports.js
+SHA1-Digest: u/6tJ6IkWcjwEIadjZvmbzMgk7g=
+
+Name: assets/www/js/views/Cheques/Card_dc_View.js
+SHA1-Digest: wYd/vOJ499NRtPWNWGpW5a9nq/A=
+
+Name: assets/www/bower_components/font-awesome/less/fixed-width.less
+SHA1-Digest: 7AwkuXGE2rhhd2YPSGuNCM1jbEI=
+
+Name: assets/www/bower_components/jquery/dist/jquery.min.map
+SHA1-Digest: y3YZEfHSipc2rNC64eA4fnhjYig=
+
+Name: assets/www/bower_components/jquery/src/selector-sizzle.js
+SHA1-Digest: zJTEtBe6K+aHG0ic+nE9G5OzoBc=
+
+Name: assets/www/html/Cheques/Card_View_Item.html
+SHA1-Digest: Vyw1vFlbj7BYTYdo8P0N0LOJKbQ=
+
+Name: assets/www/bower_components/font-awesome/scss/_larger.scss
+SHA1-Digest: lA4cXrxpAoO/ruklYM8V+r7b9qk=
+
+Name: assets/www/html/Transfers/Yello_Diamond_Transfer_Banks_View.html
+SHA1-Digest: bmf83X3no6TMR21c+Wdt6A1ob50=
+
+Name: res/drawable-xhdpi-v4/ic_action_next_item.png
+SHA1-Digest: NR4QrPwnbh+SEbVIapOw4Qetu0E=
+
+Name: assets/www/font/flaticon1.ttf
+SHA1-Digest: ckngzgOe+3sGpECKGXlUfyCtJJw=
+
+Name: assets/www/bower_components/jquery/src/css/var/cssExpand.js
+SHA1-Digest: 8qXINUOvk6Uc0IwNntHbIpXapGc=
+
+Name: assets/www/bower_components/font-awesome/fonts/FontAwesome.otf
+SHA1-Digest: zenrksijuiPWSPduo5MVEfMIE/Q=
+
+Name: assets/www/bower_components/font-awesome/less/rotated-flipped.le
+ ss
+SHA1-Digest: ld5d6QCXFGkkMLBPnNQ4i+j7qPM=
+
+Name: assets/www/base/js/Base_Switcher_View.js
+SHA1-Digest: 8GBEALIcErXsSFJD1KtcBJPxEP0=
+
+Name: assets/www/font/HelveticaNeue.woff
+SHA1-Digest: b//sAkvpJP6gEwnRWoWFni6b+yk=
+
+Name: assets/www/html/Cheques/Cheque_Success_View.html
+SHA1-Digest: dU0jyyw6vi2wOM333j9OkKESOf8=
+
+Name: assets/www/bower_components/hammerjs/hammer.js
+SHA1-Digest: La3TrishZ/9EPZvCm/+udhNwlXc=
+
+Name: assets/www/bower_components/jquery-hammerjs/jquery.hammer-full.j
+ s
+SHA1-Digest: 2hZX1/PK3k7gDnzA6uiiRgJnRFk=
+
+Name: assets/www/images/diamond.svg
+SHA1-Digest: QEDFSdAx4u0RcbI4NdTCQ/pYxn4=
+
+Name: assets/www/bower_components/jquery/src/css/swap.js
+SHA1-Digest: BKh48QuIlBKvSyVhMPjuNlnt2mo=
+
+Name: assets/www/js/views/Transfer/Yello_Diamond_Transfer_Banks_View.j
+ s
+SHA1-Digest: nLx1CUOzJNTtYbvk9s4ZQvZh6NI=
+
+Name: assets/www/html/Branches/Branches_List_Item_View.html
+SHA1-Digest: 0bzXJEJAUHdK14DOqf9RIT0HQpc=
+
+Name: assets/www/html/Profile/User_Data_View.html
+SHA1-Digest: oziQO79AVLr+KpcvrsVsj/DDjJM=
+
+Name: assets/www/images/transfer-successicon.png
+SHA1-Digest: 1x7qbnUl8IeUrwUSikp7fUOhj5g=
+
+Name: assets/www/bower_components/jquery/src/var/slice.js
+SHA1-Digest: qd0HMnyRrMMZpqwhhTsMVZhul4c=
+
+Name: assets/www/js/views/Branches/Branches_ATM_View.js
+SHA1-Digest: qJYU4VkKjKpKDzR8dtoN57c+CYU=
+
+Name: assets/www/js/views/Cheques/Cheque_Confirm_View.js
+SHA1-Digest: KCAaT4jDyVwdARTisTuHbfnIn2c=
+
+Name: assets/www/html/Accounts/Account_Trends_View.html
+SHA1-Digest: GtV+zN35AVZSVfkP7AbXLgdc46s=
+
+Name: assets/www/html/Menu_View.html
+SHA1-Digest: MdnWpxUr5RkJoIyCgENfG63G91A=
+
+Name: assets/www/js/views/Life/Tripican/Places_View.js
+SHA1-Digest: vjQskP0IDJWBqfQto5ja01SgwrE=
+
+Name: assets/www/bower_components/backbone/README.md
+SHA1-Digest: gI5ub5cAqFEIJ5Aleb7GCPTm0o4=
+
+Name: res/drawable-hdpi-v4/ic_action_remove.png
+SHA1-Digest: fJ8PTsrpYrWc6H7e3ctCsDSiaAY=
+
+Name: classes.dex
+SHA1-Digest: Zcou+ibXcfJ/MOCYc2NOdxOOZhs=
+
+Name: assets/www/html/Forgot_Pwd/Forgot_Pwd_Success_View.html
+SHA1-Digest: cMG9ie6yuKvRTAt025Jz4MuPXcQ=
+

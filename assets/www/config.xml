@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<widget id="com.vanso.diamondmobileapp" version="3.2.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:rim="http://www.blackberry.com/ns/widgets">
+    <!-- APP -->
+    <name>Diamond</name>
+    <description></description>
+    <author email="" href="">Diamond Bank Plc</author>
+    <!-- Plugins -->
+  
+    <!-- CONTENT -->
+    <content src="index.html" />
+    <!-- ACCESS -->
+    <access origin="http://*" subdomains="true" />
+    <access origin="https://*" subdomains="true" />
+    <access origin="http://127.0.0.1*" />
+    <access origin="http://84.200.29.19" subdomains="true" />
+    <access origin="https://vanso.com/" subdomains="true" />
+    <access origin="http://vanso.com/" subdomains="true" />
+    <access origin="https://www.afritickets.com/" subdomains="true" />
+    <access origin="https://mimo.com.ng" subdomains="true" />
+    <access origin="https://bankingsvc.vanso.com/" />
+    <access origin="https://mobile-analytics.vanso.com/" />
+    <access origin="http://jsonip.appspot.com/" />
+    <access origin="http://ipinfo.io/" />
+    <access origin="http://debug.phonegap.com" />
+    <access origin="https://vbp-test.vanso.com:8544/" />
+    <access origin="http://197.253.5.211:8080/" />
+    <access origin="http://ytimg.com/" subdomains="true" />
+    <access origin="http://posters.tripican.com/" />
+    <access origin="http://www.youtube.com/" />
+    <access origin="http://google.com/" subdomains="true" />
+    <access origin="https://googleapis.com" subdomains="true" />
+    <access origin="http://googleapis.com" subdomains="true" />
+    <access origin="http://gstatic.com" subdomains="true" />
+    <access origin="https://gstatic.com" subdomains="true" />
+    <access origin="http://vansogeo.cartodb.com/api/" />
+    <access origin="http://b.title.openstreetmap.org/" subdomains="true" />
+    <access origin="https://appsecure.diamondbank.com:8090/" subdomains="true" />
+    <access origin="http://vanso.io" subdomains="true" />
+    <access origin="http://s.youtube.com" subdomains="true" />
+    <access origin="http://googleads.g.doubleclick.net" subdomains="true" />
+    <access origin="http://pagead2.googlesyndication.com" subdomains="true" />
+    <access origin="http://192.168.2.89:8081" subdomains="true" />
+    <!-- ALL -->
+    <!-- ANDROID -->
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="2000" />
+
+    <access origin="tel:*" launch-external="yes" />
+    <access origin="mailto:*" launch-external="yes" /> 
+    <access origin="geo:*" launch-external="yes" />
+
+    <!-- iOS -->
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="TopActivityIndicator" value="gray" />
+    <preference name="EnableLocation" value="false" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="FadeSplashScreen" value="true" />
+    <preference name="FadeSplashScreenDuration" value="1" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="HideKeyboardFormAccessoryBar" value="false" />
+    <preference name="KeyboardShrinksView" value="false" />
+    <preference name="OpenAllWhitelistURLsInWebView" value="false" />
+    <!-- BlackBerry -->
+    <icon src="icon.png" />
+    <rim:splash src="splash-1280x768.png" />
+    <rim:splash src="splash-720x720.png" />
+    <rim:splash src="splash-768x1280.png" />
+    <rim:permissions>
+        <rim:permit>post_notification</rim:permit>
+        <rim:permit>read_device_identifying_information</rim:permit>
+        <rim:permit>access_location_services</rim:permit>
+        <rim:permit system="true">_sys_use_consumer_push</rim:permit>
+    </rim:permissions>
+    <!-- <rim:invoke-target id="com.diamondbank.dbdev">
+    <type>APPLICATION</type>
+    <filter>
+      <action>bb.action.PUSH</action>
+      <mime-type>application/vnd.push</mime-type>
+    </filter>
+    </rim:invoke-target> -->
+</widget>

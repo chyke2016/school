@@ -1,0 +1,115 @@
+<div class="Movie_Banner" style="position: absolute; top: 64px; padding-top: 10px;">
+    <ul class="v-list" style="border-top: none; border-bottom: none; background: transparent; padding-left: 10px;">
+        <li class="v-list-item">
+            <span class="v-list-item-el-empty"></span>
+            <span class="v-list-item-el Movie_Info">
+                <img style="position: absolute;left: 0;top: 0;" src="<%- poster %>">
+                <div style="top: 0;left: 75px;position: absolute;">
+                    <div style="font-weight: 400; font-size: 17px; width: 220px;">
+                        <%- title %>
+                    </div>
+                    <span style="font-size: 14px; display: block; margin-top: 3px; font-weight: 300;">
+                        <span class="v-icon-bg Movie_Rating">
+                            <span style="padding: 2px; font-weight: 300; color: #009cb5;">
+                                <%- rated[0] %>
+                            </span>
+                        </span>
+                        <%- duration %>min
+                    </span>
+                </div>
+                <button class="Purchase_Ticket_Btn">
+                    <span class="fa fa-ticket"></span>&nbsp;Purchase Tickets</button>
+            </span>
+        </li>
+    </ul>
+    <div style="z-index: 2; background-color: transparent;">
+        <div class="AccountsSegmentedControl v-segmented-control bright">
+            <span class="v-segmented-control-item bright active" data-screen="Details">Details</span>
+            <span class="v-segmented-control-item bright" data-screen="Trailer">Trailer</span>
+            <span class="v-segmented-control-item bright purchaseTab" data-screen="Tickets">Showtimes</span>
+        </div>
+    </div>
+</div>
+
+<div class="v-screen v-scrollable Details" style="top:244px; display: block; padding:0;">
+    <ul class="v-list">
+        <li class="v-list-item">
+            <span class="v-list-item-el-empty"></span>
+            <span class="v-list-item-el" style="padding: 12px 0px;">
+                <div style="font-weight: 600; padding-bottom: 6px">Storyline</div>
+                <div style="font-weight: 300;">
+                    <%- description %>
+                </div>
+            </span>
+        </li>
+        <li class="v-list-item">
+            <span class="v-list-item-el-empty"></span>
+            <span class="v-list-item-el" style="padding: 12px 0px;">
+                <div style="font-weight: 600; padding-bottom: 6px">Cast</div>
+                <div style="font-weight: 300;">
+                    <% for(var item in actor) { %>
+                        <% if (parseInt(item) !=( actor.length - 1)) { %>
+                            <%- actor[item] %>,
+                                <% } else { %>
+                                    <%- actor[item] %>
+                                        <% } %>
+                                            <% } %>
+                </div>
+            </span>
+        </li>
+        <li class="v-list-item">
+            <span class="v-list-item-el-empty"></span>
+            <span class="v-list-item-el" style="padding: 12px 0px;">
+                <div style="font-weight: 600; padding-bottom: 6px">Director</div>
+                <div style="font-weight: 300;">
+                    <% for(var item in director) { %>
+                        <% if (parseInt(item) !=( director.length - 1)) { %>
+                            <%- director[item] %>,
+                                <% } else { %>
+                                    <%- director[item] %>
+                                        <% } %>
+                                            <% } %>
+                </div>
+            </span>
+        </li>
+        <li class="v-list-item">
+            <span class="v-list-item-el-empty"></span>
+            <span class="v-list-item-el" style="padding: 12px 0px;">
+                <div style="font-weight: 600; padding-bottom: 6px">Genre</div>
+                <div style="font-weight: 300;">
+                    <% for(var item in genre) { %>
+                        <% if (parseInt(item) !=( genre.length - 1)) { %>
+                            <%- genre[item] %>,
+                                <% } else { %>
+                                    <%- genre[item] %>
+                                        <% } %>
+                                            <% } %>
+                </div>
+            </span>
+        </li>
+        <li class="v-list-item">
+            <span class="v-list-item-el-empty"></span>
+            <span class="v-list-item-el" style="padding: 12px 0px;">
+                <div style="font-weight: 600; padding-bottom: 6px">Runtime</div>
+                <div style="font-weight: 300;">
+                    <%- duration %>min</div>
+            </span>
+        </li>
+    </ul>
+</div>
+<div class="v-screen v-scrollable Trailer" style="top:244px; padding:0;">
+</div>
+
+<div class="v-screen Tickets" style="top:244px; padding:0;">
+    <div class="v-screen-carousel-wrapper" style="top:0; background:rgb(238,238,243); border: none; height: 44px">
+        <div class="Ticket_Cal" style="left: 70px; padding-top: 0px;">
+            <div class="active" data-index="0"></div>
+            <div class="" data-index="1"></div>
+            <div class="" data-index="2"></div>
+        </div>
+    </div>
+    <div class="v-screen-sub v-scrollable" style="top:44px; padding:0;">
+        <ul class="v-list Showtime_Items">
+        </ul>
+    </div>
+</div>

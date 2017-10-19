@@ -1,0 +1,17 @@
+<li class="v-list-item" data-model-id="<%- modelId %>">
+    <div class="v-list-item-el">
+        <div class="Accounts_List_Item_Heading">
+            <span class="Accounts_List_Item_AccountType">
+                <span class="Accounts_List_Item_AccountType_Inner"><%- beneficiaryName %></span>
+            </span>
+            <span class="Accounts_List_Item_AvailableBalance" style="visibility: hidden;">|</span>
+        </div>
+        
+        <% _.each(beneficiaryPhoneNumber, function(list){ %>
+            <div class="Accounts_List_Item_Account"><%- list.value %></div>
+        <% }); %>
+        
+    </div>
+    
+</li>
+

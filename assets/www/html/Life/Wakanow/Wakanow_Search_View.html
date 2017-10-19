@@ -1,0 +1,220 @@
+<div class="v-nav-bar">
+    <span class="Btn_Back_Custom v-btn-icon-text v-pull-left">
+        <span class="fa fa-chevron-left"></span>
+        Back
+    </span>
+    <span class="Btn_Cancel v-btn-icon-text v-pull-right">
+        Cancel
+    </span>
+    <span class="v-title">Flight Search</span>
+</div>
+<div class="diamond-stripes"></div>
+<div class="v-screen-carousel-wrapper" style="display:none">
+    <div class="v-screen-carousel v-carousel">
+        <div class="v-screen-carousel-item v-carousel-item active" data-screen="Route_Options" data-index="0">Route Options</div>
+        <div class="v-screen-carousel-item v-carousel-item" data-screen="Departure_Airport" data-index="1">Departure Airport</div>
+        <div class="v-screen-carousel-item v-carousel-item" data-screen="Destination_Airport" data-index="2">Destination Airport</div>
+        <div class="v-screen-carousel-item v-carousel-item" data-screen="Departure_Date" data-index="3">Departure Date</div>
+        <div class="v-screen-carousel-item v-carousel-item" data-screen="Return_Date" data-index="4">Return Date</div>
+        <div class="v-screen-carousel-item v-carousel-item" data-screen="Passengers" data-index="5">Passengers</div>
+        <div class="v-screen-carousel-item v-carousel-item" data-screen="Ticket_Class" data-index="6">Ticket Class</div>
+        <div class="v-screen-carousel-item v-carousel-item" data-screen="Results" data-index="7">Results</div>
+    </div>
+</div>
+
+<div class="Route_Options v-screen" style="display: block;">
+    
+    <div class="v-loaderDynamic"><span style="width: 40%;">Route Options</span></div>
+    
+    <div class="v-list-title">Flight type:</div>
+    <ul class="v-list">
+        <li class="v-list-item active" data-type="International">
+            <span class="v-list-item-el-icon">
+                <span class="fa fa-globe"></span>
+            </span>
+            <span class="v-list-item-el">International</span>
+            <span class="v-list-item-el v-list-item-check fa fa-check"></span>
+        </li>
+        <li class="v-list-item" data-type="Domestic">
+            <span class="v-list-item-el-icon">
+                <span class="fa fa-home"></span>
+            </span>
+            <span class="v-list-item-el">Domestic</span>
+            <span class="v-list-item-el v-list-item-check fa fa-check"></span>
+        </li>
+    </ul>
+
+    <div class="v-list-title">Trip type:</div>
+    <ul class="v-list">
+        <li class="v-list-item active" data-type="Round_Trip">
+            <span class="v-list-item-el-icon">
+                <span class="fa fa-arrows-h"></span>
+            </span>
+            <span class="v-list-item-el">Round Trip</span>
+            <span class="v-list-item-el v-list-item-check fa fa-check"></span>
+        </li>
+        <li class="v-list-item" data-type="One_Way">
+            <span class="v-list-item-el-icon">
+                <span class="fa fa-long-arrow-right"></span>
+            </span>
+            <span class="v-list-item-el">One Way</span>
+            <span class="v-list-item-el v-list-item-check fa fa-check"></span>
+        </li>
+    </ul>
+
+    <div class="v-screen-btn-wrapper"><button class="Btn_Continue v-btn-big">Continue</button></div>
+</div>
+
+<div class="Departure_Airport v-screen">
+    <div class="v-loaderDynamic"><span style="width: 50%;">Departure Airport</span></div>
+    
+    <div class="v-search-wrapper">
+        <div class="v-search">
+            <input class="v-search-input" type="text" placeholder="Search"/>
+        </div>
+    </div>
+    <div class="v-scrollable" style="top:117px;padding-top: 0;">
+        <ul class="v-list">
+            <!-- Airports_List_Item.html -->
+        </ul>
+    </div>
+</div>
+
+<div class="Destination_Airport v-screen">
+    <div class="v-loaderDynamic"><span style="width: 60%;">Destination Airport</span></div>
+    
+    <div class="v-search-wrapper">
+        <div class="v-search">
+            <input class="v-search-input" type="text" placeholder="Search"/>
+        </div>
+    </div>
+    <div class="v-scrollable" style="top:117px;padding-top: 0;">
+        <ul class="v-list">
+            <!-- Airports_List_Item.html -->
+        </ul>
+    </div>
+</div>
+
+<div class="Departure_Date v-screen">
+    <div class="v-loaderDynamic"><span style="width: 70%;">Departure Date</span></div>
+    
+    <div class="v-scrollable">
+        <div class="v-calendar">
+            <!-- Base_Calendar_View.html -->
+        </div>
+        <div class="v-screen-btn-wrapper"><button class="Btn_Continue v-btn-big">Continue</button></div>
+    </div>
+</div>
+
+<div class="Return_Date v-screen">
+    <div class="v-loaderDynamic"><span style="width: 80%;">Return Date</span></div>
+    
+    <div class="v-scrollable">
+        <div class="v-calendar" id="Return_calendar">
+            <!-- Base_Calendar_View.html -->
+        </div>
+        <div class="v-screen-btn-wrapper"><button class="Btn_Continue v-btn-big">Continue</button></div>
+    </div>
+</div>
+
+<div class="Passengers v-screen">
+    <div class="v-loaderDynamic"><span style="width: 90%;">Passengers</span></div>
+    
+    <div class="v-scrollable" style="padding-top: 24px;">
+        <div class="v-list-title">Passengers:</div>
+        <ul class="v-list">
+            <li class="v-list-item" data-type="adult">
+                <span class="v-list-item-el-icon" style="font-size: 34px;">
+                    <span class="fa fa-male"></span>
+                </span>
+                <span class="v-list-item-el">
+                    <span style="display: block; padding: 12px 9px 3px 0; font-weight: bold; font-size: 17px;">Adults</span>
+                    <span style="color: #828282; display: block; padding: 0 9px 12px 0; font-size: 14px;">over 12 years</span>
+                </span>
+                <span class="v-list-item-el" style="width: 82px;">
+                    <div class="v-segmented-control">
+                        <span class="v-segmented-control-item" data-value="minus" style="font-size: 22px; padding: 0; line-height: 32px; width: 40px;">-</span>
+                        <span class="v-segmented-control-item" data-value="plus" style="font-size: 22px; padding: 0; line-height: 32px; width: 40px;">+</span>
+                    </div>
+                </span>
+                <span class="v-list-item-el Counter" style="width: 70px; text-align: center; color: #009cb5; font-size: 40px;">1</span>
+            </li>
+            <li class="v-list-item" data-type="child">
+                <span class="v-list-item-el-icon" style="font-size: 26px;">
+                    <span class="fa fa-male" style="position: relative; left: 3px;"></span>
+                </span>
+                <span class="v-list-item-el">
+                    <span style="display: block; padding: 12px 9px 3px 0; font-weight: bold; font-size: 17px;">Children</span>
+                    <span style="color: #828282; display: block; padding: 0 9px 12px 0; font-size: 14px;">under 12 years</span>
+                </span>
+                <span class="v-list-item-el" style="width: 82px;">
+                    <div class="v-segmented-control">
+                        <span class="v-segmented-control-item" data-value="minus" style="font-size: 22px; padding: 0; line-height: 32px; width: 40px;">-</span>
+                        <span class="v-segmented-control-item" data-value="plus" style="font-size: 22px; padding: 0; line-height: 32px; width: 40px;">+</span>
+                    </div>
+                </span>
+                <span class="v-list-item-el Counter" style="width: 70px; text-align: center; color: #009cb5; font-size: 40px;">0</span>
+            </li>
+            <li class="v-list-item" data-type="infant" style="font-size: 18px;">
+                <span class="v-list-item-el-icon">
+                    <span class="fa fa-child" style="position: relative; left: 3px;"></span>
+                </span>
+                <span class="v-list-item-el">
+                    <span style="display: block; padding: 12px 9px 3px 0; font-weight: bold; font-size: 17px;">Infants</span>
+                    <span style="color: #828282; display: block; padding: 0 9px 12px 0; font-size: 14px;">under 2 years</span>
+                </span>
+                <span class="v-list-item-el" style="width: 82px;">
+                    <div class="v-segmented-control">
+                        <span class="v-segmented-control-item" data-value="minus" style="font-size: 22px; padding: 0; line-height: 32px; width: 40px;">-</span>
+                        <span class="v-segmented-control-item" data-value="plus" style="font-size: 22px; padding: 0; line-height: 32px; width: 40px;">+</span>
+                    </div>
+                </span>
+                <span class="v-list-item-el Counter" style="width: 70px; text-align: center; color: #009cb5; font-size: 40px;">0</span>
+            </li>
+        </ul>
+        <div class="v-screen-btn-wrapper"><button class="Btn_Continue v-btn-big">Continue</button></div>
+    </div>
+</div>
+
+<div class="Ticket_Class v-screen">
+    <div class="v-loaderDynamic"><span style="width: 100%;">Ticket Class</span><span class="confirmLock"></span></div>
+
+    <div class="v-scrollable" style="padding-top: 24px;">
+        <div class="v-list-title">Select your class:</div>
+        <ul class="v-list">
+            <li class="v-list-item active" data-type="Economy">
+                <span class="v-list-item-el">Economy</span>
+                <span class="v-list-item-el v-list-item-check fa fa-check"></span>
+            </li>
+            <li class="v-list-item" data-type="Business">
+                <span class="v-list-item-el">Business Class</span>
+                <span class="v-list-item-el v-list-item-check fa fa-check"></span>
+            </li>
+            <li class="v-list-item" data-type="Premium">
+                <span class="v-list-item-el">Premium</span>
+                <span class="v-list-item-el v-list-item-check fa fa-check"></span>
+            </li>
+            <li class="v-list-item" data-type="First">
+                <span class="v-list-item-el">First Class</span>
+                <span class="v-list-item-el v-list-item-check fa fa-check"></span>
+            </li>
+        </ul>
+        <div class="v-screen-btn-wrapper"><button class="Btn_Search v-btn-big">Search Flight</button></div>
+    </div>
+</div>
+
+<div class="Results v-screen">
+    <div class="v-loaderDynamic"><span style="width: 100%;">Results</span><span class="confirmLock"></span></div>
+    
+    <div class="v-scrollable">
+        <div class="v-list-wrapper">
+            <div class="v-list-title">Select a flight:</div>
+            <ul class="v-list">
+                <!-- Flights_List_Item.html -->
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="v-loader" style="display: none;"><div class="v-spinner"></div></div>
+<div class="v-loader-invisible" style="display: none;top: 64px;"></div>

@@ -1,0 +1,33 @@
+<div class="v-carousel-item" data-month="<%- month %>" data-year="<%- year %>">
+    <span class="v-calendar-title"><%- title %></span>
+    <div class="v-calendar-item-content">
+        <div class="v-calendar-item-content-line" style="color: #797979;">
+            <span class="v-calendar-day">S</span>
+            <span class="v-calendar-day">M</span>
+            <span class="v-calendar-day">T</span>
+            <span class="v-calendar-day">W</span>
+            <span class="v-calendar-day">T</span>
+            <span class="v-calendar-day">F</span>
+            <span class="v-calendar-day">S</span>
+        </div>
+        <div class="v-calendar-item-content-days">
+
+            <% for (var i = 0; i < items.length; i+=7) { %>
+
+            <div class="v-calendar-item-content-line">
+
+                <% for (var k = i; k < i + 7 && k < items.length; k++) { %>
+
+                    <span class="v-calendar-day" data-day="<%- items[k] %>">
+                        <span class="v-calendar-day-inner"><%- items[k] %></span>
+                    </span>
+
+                <% } %>
+
+            </div>
+
+            <% } %>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,62 @@
+<div class="v-nav-bar">
+    <span class="Btn_Back_Custom v-btn-icon-text v-pull-left">
+        <span class="fa fa-chevron-left"></span>
+    Back
+    </span>
+    <span class="v-title">Debit Cards</span>
+</div>
+<div class="diamond-stripes"></div>
+
+<div class="Main v-screen" style="display: block;">
+    <div class="v-loaderDynamic"><span style="width: 30%;"></span>
+    </div>
+
+    <div class="v-scrollable">
+        <div class="v-list-wrapper">
+            <div class="v-list-title">Select card:</div>
+            <ul class="v-list">
+                <!-- Card_View_Item.html -->
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="Confirm v-screen">
+    <div class="v-loaderDynamic"><span style="width: 100%;"></span><span class="confirmLock"></span>
+    </div>
+
+    <div class="v-scrollable" style="padding-top: 24px;">
+        <div class="v-list-title">Embossed Name :</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <input disabled class="Name_Val v-list-item-el" type="text" style="width: 100%; color: #000000;" />
+            </li>
+        </ul>        
+        <div class="v-list-title">Card Number:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <input disabled class="CardNumber_Val v-list-item-el" type="tel" style="width: 100%; color: #000000;" />
+            </li>
+        </ul>
+        <div class="v-list-title">Action:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <input disabled class="CardStatus_Val v-list-item-el" type="text" style="width: 100%; color: #000000;" />
+            </li>
+        </ul>
+        <div class="v-list-title">PIN:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <input class="PIN_Val v-list-item-el" type="tel" style="width: 100%; -webkit-text-security: disc;" />
+            </li>
+        </ul>
+        <div class="v-screen-btn-wrapper">
+            <button class="Btn_Continue v-btn-big">Confirm</button>
+        </div>
+    </div>
+</div>
+
+<div class="v-loader" style="display: none;top : 64px;">
+    <div class="v-spinner"></div>
+</div>
+<div class="v-loader-invisible" style="display: none;top: 64px;"></div>

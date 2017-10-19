@@ -1,0 +1,60 @@
+<div id="accounts">
+    <div class="v-nav-bar">
+        <span class="nav-bar-header">
+            <span class="Btn_Menu flaticon1-home54 v-btn-icon v-pull-left"></span>
+        <span class="title">Accounts</span>
+        <span class="Btn_Statement v-pull-right" style="position: absolute; right: 5px; top: 33px;">Statement</span>
+        </span>
+        <div class="diamond-stripes"></div>
+        <div class="Accounts-carousel-background">
+            <span class="Accounts-carousel-background-header"></span>
+        </div>
+        <div class="Accounts-carousel v-carousel">
+            <!-- Accounts_View_Account.html -->
+        </div>
+    </div>
+    <div style="position: absolute; top: 200px; left: 0; z-index: 2; background-color: rgb(160, 202, 49);">
+        <div class="AccountsSegmentedControl v-segmented-control">
+            <span class="v-segmented-control-item active" data-type-id="activity">Activity</span>
+            <span class="v-segmented-control-item" data-type-id="overview">Overview</span>
+            <span class="v-segmented-control-item" data-type-id="trends">Trends</span>
+        </div>
+    </div>
+    <div class="AccountHistory v-page-content" style="z-index: 1;"></div>
+    <div class="AccountsPageContentLoader v-loader">
+        <div class="v-spinner"></div>
+    </div>
+</div>
+<div class="Account_In_Loader v-loader noDrag" style="display: block;background: #fff;">
+    <div class="v-adds-block-regular" style="position: absolute; bottom: 0; width: 100%;"></div>
+    <div class="centerPos accLoader">
+        <div class="welcomeContent">WELCOME</div>
+        <div class="uzomaContent">Diamond Bank</div>
+        <div class="imageContent"><span></span>
+        </div>
+        <div class="v-screen-btn-wrapper">
+            <button class="Btn_Continue v-btn-big">Continue</button>
+        </div>
+    </div>
+</div>
+<div id='overview'>
+    <div class="nav-bar">
+        <span class="nav-bar-header">
+            <span class="Btn_Menu flaticon1-home54 v-btn-icon v-pull-left"></span>
+        <span class="title">Accounts</span>
+        </span>
+        <div class="diamond-stripes"></div>
+
+    </div>
+    <div class="Account_List v-screen account_top" style="display: block;">
+        <div id="overview_Title">OVERVIEW</div>
+        <div id="chartView" class="chart_view">
+            <canvas id="multiple_account_chart"></canvas>
+        </div>
+    </div>
+    <div class="AccountList v-page-content" style="z-index: 1;">
+        <ul class="v-list">
+            <!-- Bills_Category.html -->
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,41 @@
+<div class="v-nav-bar">
+    <span id="Btn_Back_Custom" class="Btn_Back_Custom v-btn-icon-text v-pull-left">
+        <span class="fa fa-chevron-left"></span>
+    Back
+    </span>
+    <span class="v-title">Request Statement</span>
+</div>
+<div class="diamond-stripes"></div>
+<div class="v-page-content">
+    <div class="Account Screen" style="display: block;">
+        <div class="v-loaderDynamic"><span style="width: 23%;"></span>
+        </div>
+        <div class="v-list-title">Select Account</div>
+        <ul class="v-list">
+            <!-- Accounts_List_Item.html -->
+        </ul>
+    </div>
+    <div class="Range Screen">
+        <div class="v-loaderDynamic"><span style="width: 80%;"></span>
+        </div>
+        <div class="v-list-title">Start Date</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <input class="Start_Input v-list-item-el" type="text" placeholder="Start Date" onfocus="$(this).attr('type', 'date')" onblur="$(this).attr('type', 'text')" style="width: 100%; text-align: left;" />
+            </li>
+        </ul>
+        <div class="v-list-title">End Date</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item" style="color: #000000;">
+                <input class="End_Input v-list-item-el" type="text" placeholder="End Date" onfocus="$(this).attr('type', 'date')" onblur="$(this).attr('type', 'text')" style="width: 100%; text-align: left;" />
+            </li>
+        </ul>
+        <div style="margin: 0 12px">
+            <button class="Btn_Statement v-btn-big">Request Statement</button>
+        </div>
+    </div>
+</div>
+<div class="Statement_Request-loader v-loader" style="display: none;top: 64px;">
+    <div class="v-spinner"></div>
+</div>
+<div class="v-loader-invisible" style="display: none;top: 64px;"></div>

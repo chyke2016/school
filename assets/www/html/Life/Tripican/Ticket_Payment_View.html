@@ -1,0 +1,151 @@
+<div class="v-nav-bar">
+    <span class="Btn_Back_Custom v-btn-icon-text v-pull-left">
+        <span class="fa fa-chevron-left"></span>
+    Back
+    </span>
+    <span class="Add_Beneficiary v-btn-icon-text v-pull-right" style="display: none;">
+        New
+    </span>
+    <span class="v-title">Movie Tickets</span>
+</div>
+<div class="diamond-stripes"></div>
+
+<div class="v-screen-carousel-wrapper" style="display:none;">
+    <div class="v-screen-carousel v-carousel">
+        <div class="v-screen-carousel-item v-carousel-item active" data-screen="Tickets" data-index="0">Tickets</div>
+        <div class="v-screen-carousel-item v-carousel-item" data-screen="Customer" data-index="1">Customer</div>
+        <div class="v-screen-carousel-item v-carousel-item" data-screen="From_Account" data-index="2">From Account</div>
+        <div class="v-screen-carousel-item v-carousel-item" data-screen="Review" data-index="3">Review</div>
+        <div class="v-screen-carousel-item v-carousel-item" data-screen="Confirm" data-index="4">Confirm</div>
+    </div>
+</div>
+
+<div class="Tickets v-screen" style="display: block;">
+    <div class="v-loaderDynamic"><span style="width: 25%;"></span>
+    </div>
+
+    <div class="v-list-title">Tickets:</div>
+    <ul class="v-list Ticket_Amounts">
+        <!-- Ticket_Amount_Item.html -->
+    </ul>
+    <div class="v-screen-btn-wrapper">
+        <button class="Btn_Continue v-btn-big">Continue</button>
+    </div>
+</div>
+
+<div class="Customer v-screen">
+    <div class="v-loaderDynamic"><span style="width: 50%;"></span>
+    </div>
+
+    <div class="v-list-title">Customer:</div>
+    <ul class="v-list" style="padding: 0 12px; color: #9b9b9b;">
+        <li class="v-list-item">
+            <span class="fa fa-user v-list-item-el" style="width: 32px; font-size: 27px;"></span>
+            <input class="FirstName v-list-item-el" type="text" placeholder="First Name" style="width: 100%;" />
+        </li>
+        <li class="v-list-item">
+            <span class="fa fa-users v-list-item-el" style="width: 32px; font-size: 20px;"></span>
+            <input class="LastName v-list-item-el" type="text" placeholder="Last Name" style="width: 100%;" />
+        </li>
+    </ul>
+    <div class="v-list-title">Contact:</div>
+    <ul class="v-list" style="padding: 0 12px; color: #9b9b9b;">
+        <li class="v-list-item">
+            <span class="fa fa-phone v-list-item-el" style="width: 32px; font-size: 27px;"></span>
+            <input class="Number v-list-item-el" type="tel" placeholder="Phone Number" style="width: 100%;" />
+        </li>
+        <li class="v-list-item">
+            <span class="fa fa-envelope v-list-item-el" style="width: 32px; font-size: 20px;"></span>
+            <input class="Mail v-list-item-el" type="text" placeholder="E-Mail" style="width: 100%;" />
+        </li>
+    </ul>
+    <div class="v-screen-btn-wrapper">
+        <button class="Btn_Continue v-btn-big">Continue</button>
+    </div>
+</div>
+
+
+<div class="From_Account v-screen">
+    <div class="v-loaderDynamic"><span style="width: 75%;"></span>
+    </div>
+
+    <div class="v-scrollable">
+        <div class="v-list-wrapper">
+            <div class="v-list-title">Select an account:</div>
+            <ul class="v-list">
+                <!-- Accounts_List_Item.html -->
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="Review v-screen">
+    <div class="v-loaderDynamic"><span style="width: 100%;"></span><span class="confirmLock"></span>
+    </div>
+
+    <div class="v-scrollable" style="padding-top: 24px;">
+        <div class="v-list-title">From account:</div>
+        <ul class="From v-list" style="min-height: 45px;">
+            <!-- Accounts_List_Item.html -->
+        </ul>
+
+        <div class="v-list-title">Customer:</div>
+        <ul class="v-list" style="padding: 0 12px; color: #9b9b9b;">
+            <li class="v-list-item">
+                <span class="fa fa-user v-list-item-el" style="width: 32px; font-size: 27px;"></span>
+                <input class="FirstName v-list-item-el" type="text" placeholder="First Name" style="width: 100%; color:black;" disabled/>
+            </li>
+            <li class="v-list-item">
+                <span class="fa fa-users v-list-item-el" style="width: 32px; font-size: 20px;"></span>
+                <input class="LastName v-list-item-el" type="text" placeholder="Last Name" style="width: 100%; color:black;" disabled/>
+            </li>
+        </ul>
+        <div class="v-list-title">Contact:</div>
+        <ul class="v-list" style="padding: 0 12px; color: #9b9b9b;">
+            <li class="v-list-item">
+                <span class="fa fa-phone v-list-item-el" style="width: 32px; font-size: 27px;"></span>
+                <input class="Number v-list-item-el" type="tel" placeholder="Phone Number" style="width: 100%; color:black;" disabled/>
+            </li>
+            <li class="v-list-item">
+                <span class="fa fa-envelope v-list-item-el" style="width: 32px; font-size: 20px;"></span>
+                <input class="Mail v-list-item-el" type="text" placeholder="E-Mail" style="width: 100%; color:black;" disabled/>
+            </li>
+        </ul>
+
+        <div class="v-list-title">Tickets:</div>
+        <ul class="Confirm_Tickets v-list" style="min-height: 45px;">
+            <!-- Tickets_Confirm_Item.html -->
+        </ul>
+
+        <div class="v-list-title">Amount:</div>
+        <ul class="v-list" style="padding: 0 12px;">
+            <li class="v-list-item">
+                <span class="CurrencyAlias v-list-item-el" style="width: 32px; font-size: 17px;">₦</span>
+                <input disabled class="Confirm_Amount v-list-item-el" type="tel" style="color: #000000; width: 100%;" disabled />
+            </li>
+        </ul>
+        <div class="v-list-title">Pin:</div>
+        <ul class="v-list" style="padding: 0 12px; color: #9b9b9b;">
+            <li class="v-list-item">
+                <span class="fa fa-key v-list-item-el" style="width: 32px; font-size: 21px;"></span>
+                <input class="Token v-list-item-el" type="tel" placeholder="PIN" style="width: 100%; -webkit-text-security: disc;" />
+            </li>
+        </ul>
+
+        <div class="v-list-title">Remark:</div>
+        <ul class="v-list" style="padding: 0 12px; color: #9b9b9b;">
+            <li class="v-list-item">
+                <span class="fa fa-comment-o v-list-item-el" style="width: 32px; font-size: 20px;"></span>
+                <input class="Remarks v-list-item-el" type="text" placeholder="Remarks (optional)" style="width: 100%;" />
+            </li>
+        </ul>
+        <div class="v-screen-btn-wrapper">
+            <button class="Btn_Confirm v-btn-big">Confirm</button>
+        </div>
+    </div>
+</div>
+
+<div class="Ticket_Payment-loader v-loader" style="display: none;">
+    <div class="v-spinner"></div>
+</div>
+<div class="v-loader-invisible" style="display: none;top: 64px;"></div>
